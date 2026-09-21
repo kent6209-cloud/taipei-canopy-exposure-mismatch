@@ -56,6 +56,17 @@ OUT_MAIN = _paths['main']
 OUT_SUPP = _paths['supp']
 CHAPTER_TITLES = {1: '緒論', 2: '文獻回顧', 3: '理論框架', 4: '研究設計與方法',
                   5: '研究結果', 6: '討論', 7: '結論與摘要'}
+# --- 作者與服務單位（來源：作者既有 Sustainability 投稿樣板） ------------------
+AUTHORS = 'Ming-Chih Jason Wang 1 and Chien-Min Chen 2,*'
+AFFILIATIONS = [
+    '1 Associate Professor, Department of History and Geography, College of Humanities and Arts, '
+    'University of Taipei, Taipei 10048, Taiwan; wmcsm@go.utaipei.edu.tw',
+    '2 Professor, School of Software, Quanzhou University of Information Engineering, Quanzhou, '
+    'Fujian Province 362000, China; also Fudan International School of Finance, Fudan University; '
+    '23260660151@m.fudan.edu.cn',
+    '* Author to whom correspondence should be addressed: 23260660151@m.fudan.edu.cn',
+]
+
 EA_FONT = 'PMingLiU'
 LATIN_FONT = 'Palatino Linotype'
 
@@ -287,6 +298,10 @@ def build(mode='full', outdir=None):
         if not text:
             continue
 
+        # --- 期刊稿：略去學位論文專用前置文字 ---
+        if text.startswith('博士學位論文（草稿') or text.startswith('副題：'):
+            continue
+
         # --- 標題層級 ---
         if sn == 'Heading 1':
             add_para(doc, text, 'MDPI_1.2_title', mode=mode)
@@ -329,10 +344,10 @@ def build(mode='full', outdir=None):
         if paras_done == 2:
             add_para(doc, text, 'MDPI_1.2_title', size=12, bold=False,
                      align=WD_ALIGN_PARAGRAPH.CENTER)
-            add_para(doc, '作者姓名【待補】', 'MDPI_1.3_authornames', align=WD_ALIGN_PARAGRAPH.CENTER, mode=mode)
-            add_para(doc, '服務單位【待補】（通訊作者：E-mail【待補】）', 'MDPI_1.6_affiliation',
-                     align=WD_ALIGN_PARAGRAPH.CENTER)
-            add_para(doc, '文章類型：研究論文', 'MDPI_1.1_article_type', mode=mode)
+            add_para(doc, AUTHORS, 'MDPI_1.3_authornames', align=WD_ALIGN_PARAGRAPH.CENTER, mode=mode)
+            for aff in AFFILIATIONS:
+                add_para(doc, aff, 'MDPI_1.6_affiliation', align=WD_ALIGN_PARAGRAPH.CENTER)
+            add_para(doc, 'Article', 'MDPI_1.1_article_type', mode=mode)
             continue
         if paras_done == 3:
             add_para(doc, text, 'MDPI_1.6_affiliation', italic=True, mode=mode)

@@ -22,10 +22,12 @@ keywords:
 authors:
   - family-names: "Wang"
     given-names: "Ming-Chih Jason"
-    # TODO: 確認作者順序與 ORCID
+    affiliation: "Department of History and Geography, College of Humanities and Arts, University of Taipei, Taipei 10048, Taiwan"
+    orcid: ""   # 待填（若期刊要求）
   - family-names: "Chen"
     given-names: "Chien-Min"
-    # TODO: 確認作者順序與 ORCID
+    affiliation: "School of Software, Quanzhou University of Information Engineering, Quanzhou 362000, China; Fudan International School of Finance, Fudan University"
+    orcid: ""   # 待填（若期刊要求）
 identifiers:
   - type: doi
     value: 10.5281/zenodo.22865864

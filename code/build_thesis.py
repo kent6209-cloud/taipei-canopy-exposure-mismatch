@@ -88,9 +88,9 @@ outside Taipei City. The study proposes a four-ledger accounting frame
 (emissions / removal / adaptation-and-nature / social-and-governance) so that
 urban greening is not equated with a single carbon-offset figure.
 
-**Keywords**: near-mountain-urban interface, green accessibility, spatial
-mismatch, corporate climate capital, four-ledger accounting, digital twin,
-spatial governance
+**Keywords**: near-mountain-urban interface, green supply exposure, spatial
+mismatch, population-weighted exposure, spatially effective inference,
+four-ledger accounting, governance extension
 
 ---
 
