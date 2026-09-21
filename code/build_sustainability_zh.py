@@ -135,7 +135,7 @@ BACK_MATTER = [
      'publicly releasing the datasets used in this study.'),
     ('Conflicts of Interest: The author(s) declare no conflicts of interest.'),
 ]
-REF_SUBHEADS = ('學術文獻', '法規與政策文件', '資料來源')
+REF_SUBHEADS = ('學術文獻', '制度與政策文件', '法規與政策文件', '資料來源')
 
 CURRENT_MODE = 'full'
 
@@ -312,6 +312,8 @@ def build(mode='full', outdir=None):
             add_para(doc, text, 'MDPI_2.1_heading1', mode=mode)
             continue
         if sn == 'Heading 3':
+            if state['zone'] == 'refs' and text in REF_SUBHEADS:
+                continue
             if state['zone'] not in ('refs', 'appendix'):
                 state['zone'] = 'body'
             m = re.match(r'^(\d+)\.', text)
