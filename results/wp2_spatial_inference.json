@@ -3,9 +3,15 @@
   "n_residential_cells": 23342,
   "block_cells": 5,
   "block_m": 500,
+  "block_sizes_m": [
+   250,
+   500,
+   750,
+   1000
+  ],
   "n_boot": 1000,
   "n_perm": 999,
-  "note": "block bootstrap/permutation respect spatial dependence; use these INSTEAD of naive p-values"
+  "note": "block bootstrap/permutation respect spatial dependence; use these INSTEAD of naive p-values; block_size_sensitivity repeats the inference for 250/500/750/1000 m blocks and shows the CIs and block-level rho are stable"
  },
  "canopy_vs_pop": {
   "rho_cell": -0.529,
@@ -40,5 +46,135 @@
  "lag1_autocorr": {
   "canopy": 0.848,
   "sai": 0.996
+ },
+ "block_size_sensitivity": {
+  "250": {
+   "block_m": 250,
+   "n_blocks": 4084,
+   "canopy_vs_pop": {
+    "rho_cell": -0.529,
+    "block_bootstrap_ci95": [
+     -0.55,
+     -0.506
+    ],
+    "n_blocks": 4084,
+    "rho_block": -0.557,
+    "block_permutation_p": 0.001,
+    "perm_ci95": [
+     -0.029,
+     0.03
+    ]
+   },
+   "sai_vs_pop": {
+    "rho_cell": -0.599,
+    "block_bootstrap_ci95": [
+     -0.619,
+     -0.577
+    ],
+    "n_blocks": 4084,
+    "rho_block": -0.63,
+    "block_permutation_p": 0.001,
+    "perm_ci95": [
+     -0.029,
+     0.031
+    ]
+   }
+  },
+  "500": {
+   "block_m": 500,
+   "n_blocks": 1116,
+   "canopy_vs_pop": {
+    "rho_cell": -0.529,
+    "block_bootstrap_ci95": [
+     -0.564,
+     -0.491
+    ],
+    "n_blocks": 1116,
+    "rho_block": -0.562,
+    "block_permutation_p": 0.001,
+    "perm_ci95": [
+     -0.058,
+     0.057
+    ]
+   },
+   "sai_vs_pop": {
+    "rho_cell": -0.599,
+    "block_bootstrap_ci95": [
+     -0.635,
+     -0.559
+    ],
+    "n_blocks": 1116,
+    "rho_block": -0.649,
+    "block_permutation_p": 0.001,
+    "perm_ci95": [
+     -0.059,
+     0.055
+    ]
+   }
+  },
+  "750": {
+   "block_m": 750,
+   "n_blocks": 533,
+   "canopy_vs_pop": {
+    "rho_cell": -0.529,
+    "block_bootstrap_ci95": [
+     -0.572,
+     -0.476
+    ],
+    "n_blocks": 533,
+    "rho_block": -0.562,
+    "block_permutation_p": 0.001,
+    "perm_ci95": [
+     -0.078,
+     0.084
+    ]
+   },
+   "sai_vs_pop": {
+    "rho_cell": -0.599,
+    "block_bootstrap_ci95": [
+     -0.645,
+     -0.549
+    ],
+    "n_blocks": 533,
+    "rho_block": -0.652,
+    "block_permutation_p": 0.001,
+    "perm_ci95": [
+     -0.08,
+     0.085
+    ]
+   }
+  },
+  "1000": {
+   "block_m": 1000,
+   "n_blocks": 319,
+   "canopy_vs_pop": {
+    "rho_cell": -0.529,
+    "block_bootstrap_ci95": [
+     -0.585,
+     -0.467
+    ],
+    "n_blocks": 319,
+    "rho_block": -0.528,
+    "block_permutation_p": 0.001,
+    "perm_ci95": [
+     -0.106,
+     0.107
+    ]
+   },
+   "sai_vs_pop": {
+    "rho_cell": -0.599,
+    "block_bootstrap_ci95": [
+     -0.656,
+     -0.532
+    ],
+    "n_blocks": 319,
+    "rho_block": -0.625,
+    "block_permutation_p": 0.001,
+    "perm_ci95": [
+     -0.106,
+     0.112
+    ]
+   }
+  }
  }
 }

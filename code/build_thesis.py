@@ -45,9 +45,9 @@ def main():
     ch1 = (P / CH_FILES[0]).read_text(encoding="utf-8")
     ch7 = (P / CH_FILES[6]).read_text(encoding="utf-8")
 
-    fm = f"""# 碳在山、綠感在巷：臺北市近山—都市介面之綠碳供需空間錯置
+    fm = f"""# 碳在山、綠感在巷：臺北市近山—都市介面之冠層結構與日常綠意供給空間錯置
 
-**Carbon on the Hills, Green in the Alleys: Spatial Mismatch of Green-Carbon Supply and Demand across the Near-Mountain–Urban Interface in Taipei**
+**Carbon on the Hills, Green in the Alleys: Spatial Mismatch between Canopy-Carbon Proxies and Everyday Green Exposure across the Near-Mountain–Urban Interface in Taipei**
 
 博士學位論文（草稿；路徑 B 縮題版）
 
@@ -59,7 +59,7 @@ def main():
 
 {abstract_of(ch7)}
 
-**關鍵詞**：近山—都市介面、綠意供給暴露、空間錯置、人口加權、空間有效推論、四層帳本、治理延伸
+**關鍵詞**：近山—都市介面、冠層結構碳代理、綠意供給暴露、空間錯置、人口加權暴露、空間有效推論、四層帳本、治理延伸
 
 ---
 
@@ -67,26 +67,30 @@ def main():
 
 Urban greening policies are frequently justified by carbon mitigation, yet the
 spatial distribution of carbon and of residents' everyday green access need not
-coincide. Using Taipei City as the study area, this dissertation proposes the
-Near-Mountain Green-Carbon Interface (NMGCI) framework and integrates the CHMv2
-canopy-height model, a 5 m DEM, the Taipei street-tree census (92,626
+coincide. Using Taipei City as the study area, this study proposes the
+Near-Mountain Green-Carbon Interface (NMGCI) analytical framework and integrates
+the CHMv2 canopy-height model, a 5 m DEM, the Taipei street-tree census (92,626
 authoritative records) and population density at 10 m / 100 m analysis grids.
 Results show that the zone above 20 m elevation holds 55.9% of the area but
-86.7% of canopy and 91.8% of the canopy-height carbon proxy (ΣH); in residential
-grid cells (n = 23,342) both canopy density and the 500 m green-supply-exposure
-index (SAI) fall as population rises (Spearman rho = -0.529 and -0.599); because
-of strong spatial autocorrelation these are re-tested with spatial block
-permutation (p = 0.001, CIs excluding zero). The population-weighted SAI (29.49)
-lies well below the area-weighted SAI (43.06), showing that proximity to the
-nearest green is not the same as neighbourhood green-supply density. Global
-Moran's I (canopy 0.817; mismatch deficit 0.893; bivariate canopy x population
--0.443, all p = 0.001) confirms the spatial clustering of the mismatch. As a
-governance EXTENSION (project-level, not full capital accounting), 61.5% of 70
-coded Open Green cases fall in the low-supply/high-demand quadrant, whereas all
-35 corporate nature/carbon projects matched on the Forestry Agency platform lie
-outside Taipei City. The study proposes a four-ledger accounting frame
-(emissions / removal / adaptation-and-nature / social-and-governance) so that
-urban greening is not equated with a single carbon-offset figure.
+86.7% of canopy and 91.8% of the canopy-carbon proxy (ΣH); in residential grid
+cells (n = 23,342) both canopy density and the 500 m green-supply-exposure index
+(SAI) fall as population rises (Spearman rho = -0.529 and -0.599). A direct
+Source-Demand mismatch layer, M = z(population) - z(ΣH), confirms strong spatial
+clustering (Global Moran's I = 0.888, p = 0.001), and the bivariate Moran's I
+between ΣH and population is -0.433 (p = 0.001). Because of spatial
+autocorrelation these are re-tested with spatial block permutation (p = 0.001,
+CIs excluding zero, stable for 250-1000 m blocks). The population-weighted SAI
+(29.49) lies well below the area-weighted SAI (43.06). Network-distance audit
+shows that the proportion of residential cells within 500 m of green space is
+significantly higher when measured by Euclidean distance than by network
+distance (97.5% vs. 62.5%), indicating that proximity differs from neighbourhood
+green-supply density. As a governance extension (project-level, not full capital
+accounting), 61.5% (32/52) of the geocoded Open Green cases fall in the
+low-supply/high-demand quadrant, whereas all 35 corporate nature/carbon projects
+matched on the Forestry Agency platform lie outside Taipei City. The study
+proposes a four-ledger accounting frame (emissions / removal /
+adaptation-and-nature / social-and-governance) so that urban greening is not
+equated with a single carbon-offset figure.
 
 **Keywords**: near-mountain-urban interface, green supply exposure, spatial
 mismatch, population-weighted exposure, spatially effective inference,
@@ -118,41 +122,33 @@ four-ledger accounting, governance extension
 
     refs = """## 參考文獻
 
-### 學術文獻
-
-1. Nowak, D.J. & Crane, D.E. (2002). Carbon storage and sequestration by urban trees in the USA. *Environmental Pollution*, 116(3), 381–389. https://doi.org/10.1016/S0269-7491(01)00214-7
-2. Nowak, D.J., Greenfield, E.J., Hoehn, R.E. & Lapoint, E. (2013). Carbon storage and sequestration by trees in urban and community areas of the United States. *Environmental Pollution*, 178, 229–236. https://doi.org/10.1016/j.envpol.2013.03.019
-3. McPherson, E.G., Xiao, Q. & Aguaron, E. (2013). A new approach to quantify and map carbon stored, sequestered and emissions avoided by urban forests. *Landscape and Urban Planning*, 120, 70–84.
-4. Winbourne, J.B. et al. (2022). Quantification of urban forest and grassland carbon fluxes… *JGR Biogeosciences*, 127, e2021JG006568. https://doi.org/10.1029/2021JG006568
-5. Chave, J. et al. (2014). Improved allometric models to estimate the aboveground biomass of tropical trees. *Global Change Biology*, 20(10), 3177–3190. https://doi.org/10.1111/gcb.12629
-6. Schendl, M. et al. (2025). Beyond proximity: greenspace accessibility in the x-minute city. *People and Nature*. https://doi.org/10.1002/pan3.70081
-7. Song, X.-P. et al. (2022). Contrasting inequality in human exposure to greenspace between cities of Global North and Global South. *Nature Communications*, 13. https://doi.org/10.1038/s41467-022-32258-4
-8. (2023). Global inequities in population exposure to urban greenspaces increased… *Communications Earth & Environment*, 4. https://doi.org/10.1038/s43247-023-01141-5
-9. (2025). Greening dominates greenspace exposure inequality in Chinese cities. *npj Urban Sustainability*. https://doi.org/10.1038/s42949-025-00253-5
-10. Liu, Q. et al. (2023). Spatial gradients of supply and demand of ecosystem services within cities. *Ecological Indicators*, 157, 111263. https://doi.org/10.1016/j.ecolind.2023.111263
-11. Herreros-Cantis, P. & McPhearson, T. (2021). Mapping supply of and demand for ecosystem services to assess environmental justice in New York City. *Ecological Applications*, 31(6), e02390. https://doi.org/10.1002/eap.2390
-12. Zhong, Z. et al. (2024). Linear and non-linear dynamics of ecosystem services supply, demand, and mismatches. *Ecological Indicators*, 159, 111614. https://doi.org/10.1016/j.ecolind.2024.111614
-13. Supianto, A.A., Nasar, W., Aspen, D.M., Hasan, A., Karlsen, A.S.T. & Torres, R.D.S. (2024). An Urban Digital Twin Framework for Reference and Planning. *IEEE Access*, 12, 152444–152465. https://doi.org/10.1109/ACCESS.2024.3478379
-14. Congressional Research Service (2023). *U.S. Forest Carbon Data: In Brief* (R46313).
-
-### 制度與政策文件
-
-15. TNFD (2023). *Recommendations of the Taskforce on Nature-related Financial Disclosures*. https://tnfd.global/recommendations
-16. ICVCM (2024). *Core Carbon Principles, Assessment Framework and Assessment Procedure*. https://www.icvcm.org/core-carbon-principles
-17. 臺北市政府（2019–2025）《臺北市自願檢視報告》（Voluntary Local Review），中文版與英文版。
-18. 臺北市政府（2025）《臺北市淨零排放管理自治條例》。
-19. 臺北市政府（2025）《臺北市第二期溫室氣體減量執行方案 113 年成果報告》，附錄「112 年臺北市溫室氣體排放量盤查報告書」。
-20. 農業部林業及自然保育署《自然碳匯與生物多樣性專案媒合平臺》. https://esg.forest.gov.tw
-21. 臺北市都市更新處《Open Green 打開綠生活》年度總結報告（108–114 年）. https://uro.gov.taipei
-
-### 資料來源
-
-22. Meta AI & World Resources Institute. Canopy Height Model v2（CHMv2）.
-23. 臺北市政府工務局公園路燈工程管理處《臺北市行道樹普查資料》（原始 92,777 筆）。
-24. 內政部國土測繪中心《鄉（鎮、市、區）界線》（114 年 3 月版）。
-25. WorldPop. *pop_taipei_2026* 人口密度推估。
-26. 臺北市政府民政局《臺北市每月各里人口數及戶數》（113–115 年逐月）。
-27. 臺北市政府都市發展局《臺北市里界圖》（115 年 6 月 23 日版）。
+1. 臺北市政府環境保護局. 《臺北市第二期溫室氣體減量執行方案 113 年成果報告》；臺北市政府：臺北，臺灣，2025.
+2. Nowak, D.J.; Crane, D.E. Carbon Storage and Sequestration by Urban Trees in the USA. *Environmental Pollution* **2002**, *116*, 381–389.
+3. Nowak, D.J.; Greenfield, E.J.; Hoehn, R.E.; Lapoint, E. Carbon Storage and Sequestration by Trees in Urban and Community Areas of the United States. *Environmental Pollution* **2013**, *178*, 229–236.
+4. Schendl, M.; James, P. Beyond Proximity: Greenspace Accessibility in the x-Minute City. *People and Nature* **2025**, *7*, e70081.
+5. Song, X.-P.; Lai, K.Y.; Tan, P.Y.; Tan, H.T.W. Contrasting Inequality in Human Exposure to Greenspace between Cities of Global North and Global South. *Nature Communications* **2022**, *13*, 4453.
+6. Song, X.-P.; Tan, P.Y.; Edwards, P.; Richards, D. Global Inequities in Population Exposure to Urban Greenspaces Increased over the Last Two Decades. *Communications Earth & Environment* **2023**, *4*, 435.
+7. Zhao, Y.; Song, X.-P.; Chen, B. Greening Dominates Greenspace Exposure Inequality in Chinese Cities. *npj Urban Sustainability* **2025**, *5*, 12.
+8. McPherson, E.G.; Xiao, Q.; Aguaron, E. A New Approach to Quantify and Map Carbon Stored, Sequestered and Emissions Avoided by Urban Forests. *Landscape and Urban Planning* **2013**, *120*, 70–84.
+9. Winbourne, J.B.; Jones, T.S.; McNellis, R.E.; Garner, J.H.; Smith, I.A.; Hutyra, L.R. Quantification of Urban Forest and Grassland Carbon Fluxes Using Continuous Automated Chambers. *JGR Biogeosciences* **2022**, *127*, e2021JG006568.
+10. Congressional Research Service. *U.S. Forest Carbon Data: In Brief* (R46313); CRS: Washington, DC, USA, 2023.
+11. Taskforce on Nature-related Financial Disclosures. *Recommendations of the Taskforce on Nature-related Financial Disclosures*; TNFD: London, UK, 2023.
+12. Integrity Council for the Voluntary Carbon Market. *Core Carbon Principles, Assessment Framework and Assessment Procedure*; ICVCM: London, UK, 2024.
+13. Liu, Q.; Wang, Y.; Zhang, Z. Spatial Gradients of Supply and Demand of Ecosystem Services within Cities. *Ecological Indicators* **2023**, *157*, 111263.
+14. Herreros-Cantis, P.; McPhearson, T. Mapping Supply of and Demand for Ecosystem Services to Assess Environmental Justice in New York City. *Ecological Applications* **2021**, *31*, e02390.
+15. Zhong, Z.; Li, Y.; Chen, X. Linear and Non-Linear Dynamics of Ecosystem Services Supply, Demand, and Mismatches. *Ecological Indicators* **2024**, *159*, 111614.
+16. Supianto, A.A.; Nasar, W.; Aspen, D.M.; Hasan, A.; Karlsen, A.S.T.; Torres, R.D.S. An Urban Digital Twin Framework for Reference and Planning. *IEEE Access* **2024**, *12*, 152444–152465.
+17. 臺北市政府. 《臺北市自願檢視報告》（Voluntary Local Review）；臺北市政府：臺北，臺灣，2019–2025.
+18. 臺北市政府. 《臺北市淨零排放管理自治條例》；臺北市政府：臺北，臺灣，2025.
+19. 內政部國土測繪中心. 《鄉（鎮、市、區）界線（114 年 3 月版）》；內政部：臺北，臺灣，2025.
+20. Meta AI; World Resources Institute. *Canopy Height Model v2 (CHMv2)*; Meta AI & WRI: Washington, DC, USA, 2024.
+21. 臺北市政府工務局公園路燈工程管理處. 《臺北市行道樹普查資料》；臺北市政府工務局：臺北，臺灣，2024.
+22. WorldPop. *Taiwan 100 m Population Density Grid 2026*; WorldPop, University of Southampton: Southampton, UK, 2026.
+23. 臺北市政府民政局. 《臺北市每月各里人口數及戶數（113–115 年逐月）》；臺北市政府：臺北，臺灣，2026.
+24. Chave, J.; Réjou-Méchain, M.; Búrquez, A.; Chidumayo, E.; Colgan, M.S.; Delitti, W.B.; Duque, A.; Tiemoko, D. Improved Allometric Models to Estimate the Aboveground Biomass of Tropical Trees. *Global Change Biology* **2014**, *20*, 3177–3190.
+25. 臺北市政府都市發展局. 《臺北市里界圖（115 年 6 月 23 日版）》；臺北市政府：臺北，臺灣，2026.
+26. 臺北市都市更新處. 《Open Green 打開綠生活》年度總結報告（108–114 年）；臺北市都市更新處：臺北，臺灣，2025.
+27. 農業部林業及自然保育署. 《自然碳匯與生物多樣性專案媒合平臺》. https://esg.forest.gov.tw（存取於 2026 年 8 月）.
 
 ---
 

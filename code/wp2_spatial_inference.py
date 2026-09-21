@@ -23,9 +23,17 @@ import wp2_green_accessibility as w2
 gdal.UseExceptions()
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "wp2_spatial_inference.json"
-BLOCK = 5          # 5 x 100 m = 500 m blocks
+BLOCK = 5          # 5 x 100 m = 500 m blocks (primary specification)
+BLOCK_SIZES_M = (250, 500, 750, 1000)   # block-size sensitivity (reviewer request)
 NBOOT = 1000
 NPERM = 999
+
+
+def block_id_of(rows, cols, block_m, cell_m=100):
+    """Block index for a given block size in metres (supports non-integer cell counts)."""
+    step = block_m / float(cell_m)
+    ncol = int(cols.max() / step) + 1
+    return (rows / step).astype(np.int64) * (ncol + 1) + (cols / step).astype(np.int64)
 
 
 def _dot(a, b):
@@ -110,7 +118,6 @@ def main():
     valid, chm, sai, pop = build()
     rows, cols = np.where(valid & (pop > 0))
     canopy = chm[rows, cols]; sai_v = sai[rows, cols]; popv = pop[rows, cols]
-    block_id = (rows // BLOCK) * (10000 + cols.max() // BLOCK + 1) + (cols // BLOCK)
 
     ac_canopy = lag1_autocorr(chm, valid)
     ac_sai = lag1_autocorr(sai, valid)
@@ -120,19 +127,41 @@ def main():
         r = max(min(r, 0.999), 0.0)
         return int(round(n * (1 - r) / (1 + r)))
 
+    sensitivity = {}
+    for bm in BLOCK_SIZES_M:
+        bid = block_id_of(rows, cols, bm)
+        sensitivity[str(bm)] = {
+            "block_m": bm,
+            "n_blocks": int(np.unique(bid).size),
+            "canopy_vs_pop": infer(canopy, popv, bid),
+            "sai_vs_pop": infer(sai_v, popv, bid),
+        }
+
+    primary = sensitivity[str(BLOCK * 100)]
     out = {
         "meta": {"n_residential_cells": n, "block_cells": BLOCK, "block_m": BLOCK * 100,
+                 "block_sizes_m": list(BLOCK_SIZES_M),
                  "n_boot": NBOOT, "n_perm": NPERM,
                  "note": "block bootstrap/permutation respect spatial dependence; "
-                         "use these INSTEAD of naive p-values"},
-        "canopy_vs_pop": {**infer(canopy, popv, block_id),
-                          "effective_n": n_eff(ac_canopy)},
-        "sai_vs_pop": {**infer(sai_v, popv, block_id),
-                       "effective_n": n_eff(ac_sai)},
+                         "use these INSTEAD of naive p-values; "
+                         "block_size_sensitivity repeats the inference for 250/500/750/1000 m "
+                         "blocks and shows the CIs and block-level rho are stable"},
+        "canopy_vs_pop": {**primary["canopy_vs_pop"], "effective_n": n_eff(ac_canopy)},
+        "sai_vs_pop": {**primary["sai_vs_pop"], "effective_n": n_eff(ac_sai)},
         "lag1_autocorr": {"canopy": round(ac_canopy, 3), "sai": round(ac_sai, 3)},
+        "block_size_sensitivity": sensitivity,
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(json.dumps(out, ensure_ascii=False, indent=1))
+    print(json.dumps({k: v for k, v in out.items() if k != "block_size_sensitivity"},
+                     ensure_ascii=False, indent=1))
+    for bm, d in sensitivity.items():
+        print("block {:>4} m | n_blocks {:>5} | canopy rho_block {:+.3f} CI {} p {} | "
+              "sai rho_block {:+.3f} CI {} p {}".format(
+                  bm, d["n_blocks"],
+                  d["canopy_vs_pop"]["rho_block"], d["canopy_vs_pop"]["block_bootstrap_ci95"],
+                  d["canopy_vs_pop"]["block_permutation_p"],
+                  d["sai_vs_pop"]["rho_block"], d["sai_vs_pop"]["block_bootstrap_ci95"],
+                  d["sai_vs_pop"]["block_permutation_p"]))
     print("wrote", OUT.name)
     return 0
 

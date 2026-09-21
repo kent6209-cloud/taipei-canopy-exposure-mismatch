@@ -402,10 +402,11 @@ def build(mode='full', outdir=None):
 
 
 def main():
-    if '--v16' in sys.argv:
+    suffix = 'v16' if '--v16' in sys.argv else ('v17' if '--v17' in sys.argv else None)
+    if suffix:
         global CANON_SUFFIX, OUT, OUT_MAIN, OUT_SUPP
-        CANON_SUFFIX = 'v16'
-        _p = out_paths('v16')
+        CANON_SUFFIX = suffix
+        _p = out_paths(suffix)
         OUT, OUT_MAIN, OUT_SUPP = _p['full'], _p['main'], _p['supp']
     outdir = None
     for i, a in enumerate(sys.argv):

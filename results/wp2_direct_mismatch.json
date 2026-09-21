@@ -1,0 +1,32 @@
+{
+ "meta": {
+  "grid_res_m": 100.0,
+  "n_cells": 27652,
+  "nperm": 999,
+  "weights": "queen contiguity, row-standardised",
+  "sigma_h": "per-cell sum of canopy heights (GRA_Sum of native CHM), proportional to Sigma(h_i * a_i)",
+  "note": "M = z(Pop) - z(Supply); M > 0 means demand overload / supply deficit"
+ },
+ "mismatch_sigma_h": {
+  "moran_I": 0.888,
+  "p": 0.001
+ },
+ "mismatch_canopy": {
+  "moran_I": 0.8928,
+  "p": 0.001
+ },
+ "bivariate_sigma_h_vs_pop": {
+  "moran_I": -0.4328,
+  "p": 0.001
+ },
+ "bivariate_canopy_vs_pop": {
+  "moran_I": -0.443,
+  "p": 0.001
+ },
+ "residential": {
+  "n": 23342,
+  "rho_sigma_h_vs_pop": -0.516,
+  "rho_canopy_vs_pop": -0.529,
+  "spearman_between_M_and_Mprime": 0.997
+ }
+}
