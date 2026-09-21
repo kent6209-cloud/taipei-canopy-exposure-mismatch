@@ -66,5 +66,6 @@ python build_paper.py               # 組裝全文與 Word 檔
 
 ## 引用
 
+- **DOI（v1.0.0）**：<https://doi.org/10.5281/zenodo.22865864>（Concept DOI：<https://doi.org/10.5281/zenodo.22865863>）
 - **GitHub repo**：<https://github.com/kent6209-cloud/taipei-canopy-exposure-mismatch>
-- 取得 DOI 後，請以 Zenodo 產生之引用格式引用本典藏（見 `CITATION.cff`）。
+- 引用格式見 `CITATION.cff`；建議同時引用典藏與論文。

@@ -26,8 +26,11 @@ authors:
   - family-names: "Chen"
     given-names: "Chien-Min"
     # TODO: 確認作者順序與 ORCID
-# 取得 DOI 後填入（Zenodo 產生）：
-# identifiers:
-#   - type: doi
-#     value: 10.5281/zenodo.XXXXXXX
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22865864
+    description: "Version DOI (v1.0.0)"
+  - type: doi
+    value: 10.5281/zenodo.22865863
+    description: "Concept DOI (all versions)"
 repository-code: "https://github.com/kent6209-cloud/taipei-canopy-exposure-mismatch"

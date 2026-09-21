@@ -19,10 +19,11 @@
    - Title：`v1.0.0 — analysis code and results (paper v16 submission)`
    - 貼上下方「Description」段落 → **Publish release**
 
-4. **回填 DOI**：Zenodo 會給兩種 DOI
-   - **Version DOI**（例：`10.5281/zenodo.1234567`）→ 用於本論文引用
-   - **Concept DOI**（例：`10.5281/zenodo.1234566`）→ 用於「所有版本」
-   取得後把 DOI 填入 `CITATION.cff` 的 `identifiers` 與論文的 Data Availability Statement。
+4. **回填 DOI** —— ✅ 已完成，Zenodo 已發 DOI：
+   - **Version DOI（v1.0.0）**：`10.5281/zenodo.22865864` → <https://doi.org/10.5281/zenodo.22865864>
+   - **Concept DOI（所有版本）**：`10.5281/zenodo.22865863` → <https://doi.org/10.5281/zenodo.22865863>
+   - Zenodo record：<https://zenodo.org/records/22865864>（resource type software、MIT、2026-09-21、封存檔 `kent6209-cloud/taipei-canopy-exposure-mismatch-v1.0.0.zip`）
+   - 已回填：`CITATION.cff` 的 `identifiers`、`README.md`、論文的 Data Availability Statement（`build_sustainability_zh.py` 之 BACK_MATTER）
 
 ## Zenodo 表單欄位（複製用）
 
