@@ -1,0 +1,982 @@
+[
+ {
+  "quadkey": "1321230121",
+  "tx": 853,
+  "ty": 434,
+  "bbox3857": [
+   13345293.642365493,
+   3013453.4031147882,
+   13384429.400847502,
+   3052589.1615967974
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321230121.tif",
+  "status": 200,
+  "size": "10448349"
+ },
+ {
+  "quadkey": "1321230130",
+  "tx": 854,
+  "ty": 434,
+  "bbox3857": [
+   13384429.400847502,
+   3013453.4031147882,
+   13423565.159329511,
+   3052589.1615967974
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321230130.tif",
+  "status": 200,
+  "size": "3008891"
+ },
+ {
+  "quadkey": "1321230123",
+  "tx": 853,
+  "ty": 435,
+  "bbox3857": [
+   13345293.642365493,
+   2974317.644632779,
+   13384429.400847502,
+   3013453.4031147882
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321230123.tif",
+  "status": 200,
+  "size": "2659810"
+ },
+ {
+  "quadkey": "1321231133",
+  "tx": 863,
+  "ty": 435,
+  "bbox3857": [
+   13736651.227185596,
+   2974317.644632779,
+   13775786.985667605,
+   3013453.4031147882
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231133.tif",
+  "status": 200,
+  "size": "3323328"
+ },
+ {
+  "quadkey": "1321320032",
+  "tx": 866,
+  "ty": 435,
+  "bbox3857": [
+   13854058.502631623,
+   2974317.644632779,
+   13893194.261113632,
+   3013453.4031147882
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321320032.tif",
+  "status": 200,
+  "size": "1983951"
+ },
+ {
+  "quadkey": "1321231211",
+  "tx": 859,
+  "ty": 436,
+  "bbox3857": [
+   13580108.193257552,
+   2935181.88615077,
+   13619243.95173956,
+   2974317.644632779
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231211.tif",
+  "status": 200,
+  "size": "1980526"
+ },
+ {
+  "quadkey": "1321231311",
+  "tx": 863,
+  "ty": 436,
+  "bbox3857": [
+   13736651.227185596,
+   2935181.88615077,
+   13775786.985667605,
+   2974317.644632779
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231311.tif",
+  "status": 200,
+  "size": "2625808"
+ },
+ {
+  "quadkey": "1321231203",
+  "tx": 857,
+  "ty": 437,
+  "bbox3857": [
+   13501836.676293533,
+   2896046.127668757,
+   13540972.434775542,
+   2935181.88615077
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231203.tif",
+  "status": 200,
+  "size": "59058177"
+ },
+ {
+  "quadkey": "1321231212",
+  "tx": 858,
+  "ty": 437,
+  "bbox3857": [
+   13540972.434775542,
+   2896046.127668757,
+   13580108.193257552,
+   2935181.88615077
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231212.tif",
+  "status": 200,
+  "size": "8521806"
+ },
+ {
+  "quadkey": "1321231213",
+  "tx": 859,
+  "ty": 437,
+  "bbox3857": [
+   13580108.193257552,
+   2896046.127668757,
+   13619243.95173956,
+   2935181.88615077
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231213.tif",
+  "status": 200,
+  "size": "1974273"
+ },
+ {
+  "quadkey": "1321230231",
+  "tx": 851,
+  "ty": 438,
+  "bbox3857": [
+   13267022.12540147,
+   2856910.369186748,
+   13306157.883883484,
+   2896046.127668757
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321230231.tif",
+  "status": 200,
+  "size": "2166134"
+ },
+ {
+  "quadkey": "1321230331",
+  "tx": 855,
+  "ty": 438,
+  "bbox3857": [
+   13423565.159329511,
+   2856910.369186748,
+   13462700.917811524,
+   2896046.127668757
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321230331.tif",
+  "status": 200,
+  "size": "2024338"
+ },
+ {
+  "quadkey": "1321231220",
+  "tx": 856,
+  "ty": 438,
+  "bbox3857": [
+   13462700.917811524,
+   2856910.369186748,
+   13501836.676293533,
+   2896046.127668757
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231220.tif",
+  "status": 200,
+  "size": "82711986"
+ },
+ {
+  "quadkey": "1321231221",
+  "tx": 857,
+  "ty": 438,
+  "bbox3857": [
+   13501836.676293533,
+   2856910.369186748,
+   13540972.434775542,
+   2896046.127668757
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231221.tif",
+  "status": 200,
+  "size": "257005357"
+ },
+ {
+  "quadkey": "1321231230",
+  "tx": 858,
+  "ty": 438,
+  "bbox3857": [
+   13540972.434775542,
+   2856910.369186748,
+   13580108.193257552,
+   2896046.127668757
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231230.tif",
+  "status": 200,
+  "size": "223954725"
+ },
+ {
+  "quadkey": "1321231231",
+  "tx": 859,
+  "ty": 438,
+  "bbox3857": [
+   13580108.193257552,
+   2856910.369186748,
+   13619243.95173956,
+   2896046.127668757
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231231.tif",
+  "status": 200,
+  "size": "2315878"
+ },
+ {
+  "quadkey": "1321230222",
+  "tx": 848,
+  "ty": 439,
+  "bbox3857": [
+   13149614.84995544,
+   2817774.6107047386,
+   13188750.608437452,
+   2856910.369186748
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321230222.tif",
+  "status": 200,
+  "size": "138206403"
+ },
+ {
+  "quadkey": "1321230333",
+  "tx": 855,
+  "ty": 439,
+  "bbox3857": [
+   13423565.159329511,
+   2817774.6107047386,
+   13462700.917811524,
+   2856910.369186748
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321230333.tif",
+  "status": 200,
+  "size": "79397613"
+ },
+ {
+  "quadkey": "1321231222",
+  "tx": 856,
+  "ty": 439,
+  "bbox3857": [
+   13462700.917811524,
+   2817774.6107047386,
+   13501836.676293533,
+   2856910.369186748
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231222.tif",
+  "status": 200,
+  "size": "313954557"
+ },
+ {
+  "quadkey": "1321231223",
+  "tx": 857,
+  "ty": 439,
+  "bbox3857": [
+   13501836.676293533,
+   2817774.6107047386,
+   13540972.434775542,
+   2856910.369186748
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231223.tif",
+  "status": 200,
+  "size": "343554809"
+ },
+ {
+  "quadkey": "1321231232",
+  "tx": 858,
+  "ty": 439,
+  "bbox3857": [
+   13540972.434775542,
+   2817774.6107047386,
+   13580108.193257552,
+   2856910.369186748
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321231232.tif",
+  "status": 200,
+  "size": "134439773"
+ },
+ {
+  "quadkey": "1321232000",
+  "tx": 848,
+  "ty": 440,
+  "bbox3857": [
+   13149614.84995544,
+   2778638.8522227257,
+   13188750.608437452,
+   2817774.6107047386
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232000.tif",
+  "status": 200,
+  "size": "36149045"
+ },
+ {
+  "quadkey": "1321232001",
+  "tx": 849,
+  "ty": 440,
+  "bbox3857": [
+   13188750.608437452,
+   2778638.8522227257,
+   13227886.366919462,
+   2817774.6107047386
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232001.tif",
+  "status": 200,
+  "size": "2400599"
+ },
+ {
+  "quadkey": "1321232110",
+  "tx": 854,
+  "ty": 440,
+  "bbox3857": [
+   13384429.400847502,
+   2778638.8522227257,
+   13423565.159329511,
+   2817774.6107047386
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232110.tif",
+  "status": 200,
+  "size": "8100926"
+ },
+ {
+  "quadkey": "1321232111",
+  "tx": 855,
+  "ty": 440,
+  "bbox3857": [
+   13423565.159329511,
+   2778638.8522227257,
+   13462700.917811524,
+   2817774.6107047386
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232111.tif",
+  "status": 200,
+  "size": "196065502"
+ },
+ {
+  "quadkey": "1321233000",
+  "tx": 856,
+  "ty": 440,
+  "bbox3857": [
+   13462700.917811524,
+   2778638.8522227257,
+   13501836.676293533,
+   2817774.6107047386
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233000.tif",
+  "status": 200,
+  "size": "388955223"
+ },
+ {
+  "quadkey": "1321233001",
+  "tx": 857,
+  "ty": 440,
+  "bbox3857": [
+   13501836.676293533,
+   2778638.8522227257,
+   13540972.434775542,
+   2817774.6107047386
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233001.tif",
+  "status": 200,
+  "size": "367284879"
+ },
+ {
+  "quadkey": "1321233010",
+  "tx": 858,
+  "ty": 440,
+  "bbox3857": [
+   13540972.434775542,
+   2778638.8522227257,
+   13580108.193257552,
+   2817774.6107047386
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233010.tif",
+  "status": 200,
+  "size": "142202778"
+ },
+ {
+  "quadkey": "1321232002",
+  "tx": 848,
+  "ty": 441,
+  "bbox3857": [
+   13149614.84995544,
+   2739503.0937407166,
+   13188750.608437452,
+   2778638.8522227257
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232002.tif",
+  "status": 200,
+  "size": "1985978"
+ },
+ {
+  "quadkey": "1321232112",
+  "tx": 854,
+  "ty": 441,
+  "bbox3857": [
+   13384429.400847502,
+   2739503.0937407166,
+   13423565.159329511,
+   2778638.8522227257
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232112.tif",
+  "status": 200,
+  "size": "44618095"
+ },
+ {
+  "quadkey": "1321232113",
+  "tx": 855,
+  "ty": 441,
+  "bbox3857": [
+   13423565.159329511,
+   2739503.0937407166,
+   13462700.917811524,
+   2778638.8522227257
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232113.tif",
+  "status": 200,
+  "size": "224349916"
+ },
+ {
+  "quadkey": "1321233002",
+  "tx": 856,
+  "ty": 441,
+  "bbox3857": [
+   13462700.917811524,
+   2739503.0937407166,
+   13501836.676293533,
+   2778638.8522227257
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233002.tif",
+  "status": 200,
+  "size": "367940174"
+ },
+ {
+  "quadkey": "1321233003",
+  "tx": 857,
+  "ty": 441,
+  "bbox3857": [
+   13501836.676293533,
+   2739503.0937407166,
+   13540972.434775542,
+   2778638.8522227257
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233003.tif",
+  "status": 200,
+  "size": "339170378"
+ },
+ {
+  "quadkey": "1321233012",
+  "tx": 858,
+  "ty": 441,
+  "bbox3857": [
+   13540972.434775542,
+   2739503.0937407166,
+   13580108.193257552,
+   2778638.8522227257
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233012.tif",
+  "status": 200,
+  "size": "6004570"
+ },
+ {
+  "quadkey": "1321232031",
+  "tx": 851,
+  "ty": 442,
+  "bbox3857": [
+   13267022.12540147,
+   2700367.3352587074,
+   13306157.883883484,
+   2739503.0937407166
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232031.tif",
+  "status": 200,
+  "size": "2898665"
+ },
+ {
+  "quadkey": "1321232120",
+  "tx": 852,
+  "ty": 442,
+  "bbox3857": [
+   13306157.883883484,
+   2700367.3352587074,
+   13345293.642365493,
+   2739503.0937407166
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232120.tif",
+  "status": 200,
+  "size": "5802641"
+ },
+ {
+  "quadkey": "1321232121",
+  "tx": 853,
+  "ty": 442,
+  "bbox3857": [
+   13345293.642365493,
+   2700367.3352587074,
+   13384429.400847502,
+   2739503.0937407166
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232121.tif",
+  "status": 200,
+  "size": "10316742"
+ },
+ {
+  "quadkey": "1321232130",
+  "tx": 854,
+  "ty": 442,
+  "bbox3857": [
+   13384429.400847502,
+   2700367.3352587074,
+   13423565.159329511,
+   2739503.0937407166
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232130.tif",
+  "status": 200,
+  "size": "66815919"
+ },
+ {
+  "quadkey": "1321232131",
+  "tx": 855,
+  "ty": 442,
+  "bbox3857": [
+   13423565.159329511,
+   2700367.3352587074,
+   13462700.917811524,
+   2739503.0937407166
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232131.tif",
+  "status": 200,
+  "size": "329578602"
+ },
+ {
+  "quadkey": "1321233020",
+  "tx": 856,
+  "ty": 442,
+  "bbox3857": [
+   13462700.917811524,
+   2700367.3352587074,
+   13501836.676293533,
+   2739503.0937407166
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233020.tif",
+  "status": 200,
+  "size": "400437637"
+ },
+ {
+  "quadkey": "1321233021",
+  "tx": 857,
+  "ty": 442,
+  "bbox3857": [
+   13501836.676293533,
+   2700367.3352587074,
+   13540972.434775542,
+   2739503.0937407166
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233021.tif",
+  "status": 200,
+  "size": "256760256"
+ },
+ {
+  "quadkey": "1321232033",
+  "tx": 851,
+  "ty": 443,
+  "bbox3857": [
+   13267022.12540147,
+   2661231.576776698,
+   13306157.883883484,
+   2700367.3352587074
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232033.tif",
+  "status": 200,
+  "size": "2640382"
+ },
+ {
+  "quadkey": "1321232122",
+  "tx": 852,
+  "ty": 443,
+  "bbox3857": [
+   13306157.883883484,
+   2661231.576776698,
+   13345293.642365493,
+   2700367.3352587074
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232122.tif",
+  "status": 200,
+  "size": "3892164"
+ },
+ {
+  "quadkey": "1321232123",
+  "tx": 853,
+  "ty": 443,
+  "bbox3857": [
+   13345293.642365493,
+   2661231.576776698,
+   13384429.400847502,
+   2700367.3352587074
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232123.tif",
+  "status": 200,
+  "size": "14803361"
+ },
+ {
+  "quadkey": "1321232132",
+  "tx": 854,
+  "ty": 443,
+  "bbox3857": [
+   13384429.400847502,
+   2661231.576776698,
+   13423565.159329511,
+   2700367.3352587074
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232132.tif",
+  "status": 200,
+  "size": "195040335"
+ },
+ {
+  "quadkey": "1321232133",
+  "tx": 855,
+  "ty": 443,
+  "bbox3857": [
+   13423565.159329511,
+   2661231.576776698,
+   13462700.917811524,
+   2700367.3352587074
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232133.tif",
+  "status": 200,
+  "size": "407156966"
+ },
+ {
+  "quadkey": "1321233022",
+  "tx": 856,
+  "ty": 443,
+  "bbox3857": [
+   13462700.917811524,
+   2661231.576776698,
+   13501836.676293533,
+   2700367.3352587074
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233022.tif",
+  "status": 200,
+  "size": "395330381"
+ },
+ {
+  "quadkey": "1321233023",
+  "tx": 857,
+  "ty": 443,
+  "bbox3857": [
+   13501836.676293533,
+   2661231.576776698,
+   13540972.434775542,
+   2700367.3352587074
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233023.tif",
+  "status": 200,
+  "size": "157423775"
+ },
+ {
+  "quadkey": "1321232211",
+  "tx": 851,
+  "ty": 444,
+  "bbox3857": [
+   13267022.12540147,
+   2622095.8182946853,
+   13306157.883883484,
+   2661231.576776698
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232211.tif",
+  "status": 200,
+  "size": "2357140"
+ },
+ {
+  "quadkey": "1321232300",
+  "tx": 852,
+  "ty": 444,
+  "bbox3857": [
+   13306157.883883484,
+   2622095.8182946853,
+   13345293.642365493,
+   2661231.576776698
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232300.tif",
+  "status": 200,
+  "size": "1974329"
+ },
+ {
+  "quadkey": "1321232301",
+  "tx": 853,
+  "ty": 444,
+  "bbox3857": [
+   13345293.642365493,
+   2622095.8182946853,
+   13384429.400847502,
+   2661231.576776698
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232301.tif",
+  "status": 200,
+  "size": "25955273"
+ },
+ {
+  "quadkey": "1321232310",
+  "tx": 854,
+  "ty": 444,
+  "bbox3857": [
+   13384429.400847502,
+   2622095.8182946853,
+   13423565.159329511,
+   2661231.576776698
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232310.tif",
+  "status": 200,
+  "size": "266721855"
+ },
+ {
+  "quadkey": "1321232311",
+  "tx": 855,
+  "ty": 444,
+  "bbox3857": [
+   13423565.159329511,
+   2622095.8182946853,
+   13462700.917811524,
+   2661231.576776698
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232311.tif",
+  "status": 200,
+  "size": "346518691"
+ },
+ {
+  "quadkey": "1321233200",
+  "tx": 856,
+  "ty": 444,
+  "bbox3857": [
+   13462700.917811524,
+   2622095.8182946853,
+   13501836.676293533,
+   2661231.576776698
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233200.tif",
+  "status": 200,
+  "size": "353905851"
+ },
+ {
+  "quadkey": "1321233201",
+  "tx": 857,
+  "ty": 444,
+  "bbox3857": [
+   13501836.676293533,
+   2622095.8182946853,
+   13540972.434775542,
+   2661231.576776698
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233201.tif",
+  "status": 200,
+  "size": "65189299"
+ },
+ {
+  "quadkey": "1321232303",
+  "tx": 853,
+  "ty": 445,
+  "bbox3857": [
+   13345293.642365493,
+   2582960.059812676,
+   13384429.400847502,
+   2622095.8182946853
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232303.tif",
+  "status": 200,
+  "size": "5473320"
+ },
+ {
+  "quadkey": "1321232312",
+  "tx": 854,
+  "ty": 445,
+  "bbox3857": [
+   13384429.400847502,
+   2582960.059812676,
+   13423565.159329511,
+   2622095.8182946853
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232312.tif",
+  "status": 200,
+  "size": "168065867"
+ },
+ {
+  "quadkey": "1321232313",
+  "tx": 855,
+  "ty": 445,
+  "bbox3857": [
+   13423565.159329511,
+   2582960.059812676,
+   13462700.917811524,
+   2622095.8182946853
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232313.tif",
+  "status": 200,
+  "size": "296091280"
+ },
+ {
+  "quadkey": "1321233202",
+  "tx": 856,
+  "ty": 445,
+  "bbox3857": [
+   13462700.917811524,
+   2582960.059812676,
+   13501836.676293533,
+   2622095.8182946853
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233202.tif",
+  "status": 200,
+  "size": "173458521"
+ },
+ {
+  "quadkey": "1321233203",
+  "tx": 857,
+  "ty": 445,
+  "bbox3857": [
+   13501836.676293533,
+   2582960.059812676,
+   13540972.434775542,
+   2622095.8182946853
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233203.tif",
+  "status": 200,
+  "size": "4352185"
+ },
+ {
+  "quadkey": "1321232330",
+  "tx": 854,
+  "ty": 446,
+  "bbox3857": [
+   13384429.400847502,
+   2543824.301330667,
+   13423565.159329511,
+   2582960.059812676
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232330.tif",
+  "status": 200,
+  "size": "39439432"
+ },
+ {
+  "quadkey": "1321232331",
+  "tx": 855,
+  "ty": 446,
+  "bbox3857": [
+   13423565.159329511,
+   2543824.301330667,
+   13462700.917811524,
+   2582960.059812676
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232331.tif",
+  "status": 200,
+  "size": "272190847"
+ },
+ {
+  "quadkey": "1321233220",
+  "tx": 856,
+  "ty": 446,
+  "bbox3857": [
+   13462700.917811524,
+   2543824.301330667,
+   13501836.676293533,
+   2582960.059812676
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233220.tif",
+  "status": 200,
+  "size": "14918256"
+ },
+ {
+  "quadkey": "1321232333",
+  "tx": 855,
+  "ty": 447,
+  "bbox3857": [
+   13423565.159329511,
+   2504688.542848654,
+   13462700.917811524,
+   2543824.301330667
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321232333.tif",
+  "status": 200,
+  "size": "152065813"
+ },
+ {
+  "quadkey": "1321233223",
+  "tx": 857,
+  "ty": 447,
+  "bbox3857": [
+   13501836.676293533,
+   2504688.542848654,
+   13540972.434775542,
+   2543824.301330667
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1321233223.tif",
+  "status": 200,
+  "size": "10694465"
+ },
+ {
+  "quadkey": "1323010111",
+  "tx": 855,
+  "ty": 448,
+  "bbox3857": [
+   13423565.159329511,
+   2465552.784366645,
+   13462700.917811524,
+   2504688.542848654
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1323010111.tif",
+  "status": 200,
+  "size": "7203517"
+ },
+ {
+  "quadkey": "1323011001",
+  "tx": 857,
+  "ty": 448,
+  "bbox3857": [
+   13501836.676293533,
+   2465552.784366645,
+   13540972.434775542,
+   2504688.542848654
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1323011001.tif",
+  "status": 200,
+  "size": "2011514"
+ },
+ {
+  "quadkey": "1323001033",
+  "tx": 843,
+  "ty": 451,
+  "bbox3857": [
+   12953936.05754539,
+   2348145.5089206137,
+   12993071.8160274,
+   2387281.2674026266
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1323001033.tif",
+  "status": 200,
+  "size": "2201355"
+ },
+ {
+  "quadkey": "1323001122",
+  "tx": 844,
+  "ty": 451,
+  "bbox3857": [
+   12993071.8160274,
+   2348145.5089206137,
+   13032207.574509412,
+   2387281.2674026266
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1323001122.tif",
+  "status": 200,
+  "size": "2216785"
+ },
+ {
+  "quadkey": "1323200121",
+  "tx": 837,
+  "ty": 482,
+  "bbox3857": [
+   12719121.506653327,
+   1134936.9959782958,
+   12758257.26513534,
+   1174072.7544603087
+  ],
+  "url": "https://dataforgood-fb-data.s3.us-east-1.amazonaws.com/forests/v2/global/dinov3_global_chm_v2_ml3/chm/1323200121.tif",
+  "status": 200,
+  "size": "4277289"
+ }
+]

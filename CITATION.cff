@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived results, please cite both the archived software and the article."
+title: "Carbon on the Hills, Green in the Alleys: analysis code and results for the spatial mismatch of canopy structure and green exposure in Taipei City"
+type: software
+version: 1.0.0
+date-released: 2026-09-21
+license: MIT
+abstract: >-
+  Analysis code and reproducible outputs for a study of the spatial mismatch between
+  canopy-structure carbon proxy (ΣH) and 500 m green-supply exposure (SAI) across the
+  near-mountain–urban interface of Taipei City. Includes data auditing, canopy and
+  accessibility indices, spatial autocorrelation and block inference, sensitivity and
+  robustness checks, national township/county comparisons, CHMv2 validation against the
+  street-tree census, and all figure generation scripts (PIL-based).
+keywords:
+  - urban green accessibility
+  - canopy height model
+  - spatial mismatch
+  - spatial autocorrelation
+  - Taipei City
+  - near-mountain-urban interface
+authors:
+  - family-names: "Wang"
+    given-names: "Ming-Chih Jason"
+    # TODO: 確認作者順序與 ORCID
+  - family-names: "Chen"
+    given-names: "Chien-Min"
+    # TODO: 確認作者順序與 ORCID
+# 取得 DOI 後填入（Zenodo 產生）：
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.XXXXXXX
+# repository-code: "https://github.com/<user>/<repo>"

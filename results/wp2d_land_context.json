@@ -1,0 +1,183 @@
+{
+ "A3_slope_validation": {
+  "slope_source": "內政部《山坡地範圍》115.05.12 版（原始 EPSG:3824，點陣化至 100 m 網格）",
+  "slope_area_ha_vector": 14914.5,
+  "slope_cells_grid": 14917,
+  "slope_area_ha_grid": 149.2,
+  "by_band": [
+   {
+    "band": "都市平地 0–20 m",
+    "n_cells": 20510,
+    "area_ha": 205.1,
+    "slope_cells": 292,
+    "slope_pct_of_band": 1.4,
+    "share_of_all_slope_pct": 2.0
+   },
+   {
+    "band": "丘陵近山 20–100 m",
+    "n_cells": 9413,
+    "area_ha": 94.1,
+    "slope_cells": 3870,
+    "slope_pct_of_band": 41.1,
+    "share_of_all_slope_pct": 25.9
+   },
+   {
+    "band": "淺山 100–300 m",
+    "n_cells": 14391,
+    "area_ha": 143.9,
+    "slope_cells": 4464,
+    "slope_pct_of_band": 31.0,
+    "share_of_all_slope_pct": 29.9
+   },
+   {
+    "band": "山地 300–600 m",
+    "n_cells": 10089,
+    "area_ha": 100.9,
+    "slope_cells": 3966,
+    "slope_pct_of_band": 39.3,
+    "share_of_all_slope_pct": 26.6
+   },
+   {
+    "band": "中高山 > 600 m",
+    "n_cells": 4533,
+    "area_ha": 45.3,
+    "slope_cells": 2325,
+    "slope_pct_of_band": 51.3,
+    "share_of_all_slope_pct": 15.6
+   }
+  ],
+  "pct_slope_at_or_above_20m": 98.0,
+  "pct_flat_band_that_is_slope": 1.4,
+  "note": "驗證「近山＝高程 ≥20 m」之界定；平地帶若含少量山坡地，屬地形過渡帶。"
+ },
+ "A4_zoning": {
+  "zone_source": "臺北市《主要計畫圖》115.04.09 版（使用分區；原始檔無 .prj，依 TM2 座標判定為 EPSG:3826）",
+  "quadrant_rule": "supply=canopy<=mean 且 demand=pop>mean（同 §5.4）",
+  "n_valid_cells": 27652,
+  "n_deficit_cells": 7911,
+  "cells_without_zoning": 0,
+  "top_deficit_zones": [
+   {
+    "zone": "住宅區",
+    "n_cells": 4510,
+    "mean_sai": 30.6,
+    "mean_canopy_m": 1.63,
+    "mean_pop_density": 178.7,
+    "deficit_cells": 3304,
+    "deficit_pct_of_zone": 73.3,
+    "pct_of_all_deficit": 41.8
+   },
+   {
+    "zone": "(未標註使用分區)",
+    "n_cells": 2248,
+    "mean_sai": 34.1,
+    "mean_canopy_m": 2.54,
+    "mean_pop_density": 108.2,
+    "deficit_cells": 1045,
+    "deficit_pct_of_zone": 46.5,
+    "pct_of_all_deficit": 13.2
+   },
+   {
+    "zone": "商業區",
+    "n_cells": 981,
+    "mean_sai": 24.2,
+    "mean_canopy_m": 0.44,
+    "mean_pop_density": 189.8,
+    "deficit_cells": 752,
+    "deficit_pct_of_zone": 76.7,
+    "pct_of_all_deficit": 9.5
+   },
+   {
+    "zone": "特定專用區",
+    "n_cells": 444,
+    "mean_sai": 24.1,
+    "mean_canopy_m": 1.0,
+    "mean_pop_density": 246.9,
+    "deficit_cells": 418,
+    "deficit_pct_of_zone": 94.1,
+    "pct_of_all_deficit": 5.3
+   },
+   {
+    "zone": "工業區",
+    "n_cells": 444,
+    "mean_sai": 22.1,
+    "mean_canopy_m": 0.51,
+    "mean_pop_density": 145.8,
+    "deficit_cells": 340,
+    "deficit_pct_of_zone": 76.6,
+    "pct_of_all_deficit": 4.3
+   },
+   {
+    "zone": "機關用地",
+    "n_cells": 533,
+    "mean_sai": 49.3,
+    "mean_canopy_m": 3.52,
+    "mean_pop_density": 94.2,
+    "deficit_cells": 219,
+    "deficit_pct_of_zone": 41.1,
+    "pct_of_all_deficit": 2.8
+   },
+   {
+    "zone": "國小用地",
+    "n_cells": 269,
+    "mean_sai": 28.4,
+    "mean_canopy_m": 1.48,
+    "mean_pop_density": 167.2,
+    "deficit_cells": 204,
+    "deficit_pct_of_zone": 75.8,
+    "pct_of_all_deficit": 2.6
+   },
+   {
+    "zone": "河川區",
+    "n_cells": 1660,
+    "mean_sai": 17.1,
+    "mean_canopy_m": 0.43,
+    "mean_pop_density": 27.5,
+    "deficit_cells": 201,
+    "deficit_pct_of_zone": 12.1,
+    "pct_of_all_deficit": 2.5
+   },
+   {
+    "zone": "公園用地",
+    "n_cells": 1014,
+    "mean_sai": 38.1,
+    "mean_canopy_m": 4.43,
+    "mean_pop_density": 55.4,
+    "deficit_cells": 188,
+    "deficit_pct_of_zone": 18.5,
+    "pct_of_all_deficit": 2.4
+   },
+   {
+    "zone": "保護區",
+    "n_cells": 6993,
+    "mean_sai": 63.5,
+    "mean_canopy_m": 8.18,
+    "mean_pop_density": 11.1,
+    "deficit_cells": 122,
+    "deficit_pct_of_zone": 1.7,
+    "pct_of_all_deficit": 1.5
+   },
+   {
+    "zone": "交通用地",
+    "n_cells": 158,
+    "mean_sai": 38.0,
+    "mean_canopy_m": 1.03,
+    "mean_pop_density": 106.8,
+    "deficit_cells": 99,
+    "deficit_pct_of_zone": 62.7,
+    "pct_of_all_deficit": 1.3
+   },
+   {
+    "zone": "國中用地",
+    "n_cells": 138,
+    "mean_sai": 30.1,
+    "mean_canopy_m": 1.57,
+    "mean_pop_density": 143.6,
+    "deficit_cells": 93,
+    "deficit_pct_of_zone": 67.4,
+    "pct_of_all_deficit": 1.2
+   }
+  ],
+  "note": "使用分區依多邊形名稱彙總（同一名稱可能有多個多邊形）。Open Green 案例僅有行政區質心座標，故不做案例落點×分區之精細對照。"
+ }
+}

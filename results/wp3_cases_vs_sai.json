@@ -1,0 +1,533 @@
+{
+ "n_cases_with_coords": 52,
+ "quadrant_counts": {
+  "low_supply_high_demand": 32,
+  "high_supply_high_demand": 3,
+  "low_supply_low_demand": 13,
+  "high_supply_low_demand": 4
+ },
+ "share_in_deficit_pct": 61.5,
+ "note": "case coordinates are district centroids (approximate)",
+ "cases": [
+  {
+   "case": "翠湖農園改造計畫",
+   "src": "opengreen_114E_coded.csv",
+   "lon": 121.5924,
+   "lat": 25.08382,
+   "layer": "3;4",
+   "sai": 32.07,
+   "canopy_m": 0.1,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "廣慈田田圈—打造社宅綠屋頂生態跳島行動計畫",
+   "src": "opengreen_114E_coded.csv",
+   "lon": 121.57166,
+   "lat": 25.03075,
+   "layer": "3;4",
+   "sai": 50.46,
+   "canopy_m": 6.74,
+   "quadrant": "high_supply_high_demand"
+  },
+  {
+   "case": "古風共學共做串燒",
+   "src": "opengreen_114E_coded.csv",
+   "lon": 121.54343,
+   "lat": 25.02686,
+   "layer": "3;4",
+   "sai": 30.9,
+   "canopy_m": 0.44,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "里山淨零-店仔綠生活體驗",
+   "src": "opengreen_114E_coded.csv",
+   "lon": 121.60974,
+   "lat": 25.0361,
+   "layer": "3;4",
+   "sai": 62.86,
+   "canopy_m": 1.77,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "松榕農園改造計畫",
+   "src": "opengreen_114E_coded.csv",
+   "lon": 121.57166,
+   "lat": 25.03075,
+   "layer": "3;4",
+   "sai": 50.46,
+   "canopy_m": 6.74,
+   "quadrant": "high_supply_high_demand"
+  },
+  {
+   "case": "西湖里綠園圃整理計畫",
+   "src": "opengreen_114E_coded.csv",
+   "lon": 121.5924,
+   "lat": 25.08382,
+   "layer": "3;4",
+   "sai": 32.07,
+   "canopy_m": 0.1,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "行善內湖·食全拾美",
+   "src": "opengreen_114E_coded.csv",
+   "lon": 121.5924,
+   "lat": 25.08382,
+   "layer": "3;4",
+   "sai": 32.07,
+   "canopy_m": 0.1,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "建安光影.隨憶而安",
+   "src": "opengreen_114E_coded.csv",
+   "lon": 121.54343,
+   "lat": 25.02686,
+   "layer": "3;4",
+   "sai": 30.9,
+   "canopy_m": 0.44,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "象山農場環境整體調查",
+   "src": "opengreen_114E_coded.csv",
+   "lon": 121.57166,
+   "lat": 25.03075,
+   "layer": "3;4",
+   "sai": 50.46,
+   "canopy_m": 6.74,
+   "quadrant": "high_supply_high_demand"
+  },
+  {
+   "case": "文林社區樸門綠生活2.0",
+   "src": "opengreen_114W_coded.csv",
+   "lon": 121.51784,
+   "lat": 25.1482,
+   "layer": "3;4",
+   "sai": 62.21,
+   "canopy_m": 1.94,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "城市綠洲計畫-百間厝文化藝術公園",
+   "src": "opengreen_114W_coded.csv",
+   "lon": 121.51986,
+   "lat": 25.03245,
+   "layer": "3;4",
+   "sai": 33.87,
+   "canopy_m": 0.13,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "OPEN 北投101",
+   "src": "opengreen_114W_coded.csv",
+   "lon": 121.51784,
+   "lat": 25.1482,
+   "layer": "3;4",
+   "sai": 62.21,
+   "canopy_m": 1.94,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "我愛石牌社區樸門綠一下－照顧地球、照顧人、分享多餘",
+   "src": "opengreen_114W_coded.csv",
+   "lon": 121.51784,
+   "lat": 25.1482,
+   "layer": "3;4",
+   "sai": 62.21,
+   "canopy_m": 1.94,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "建民社區全齡綠化環保行動",
+   "src": "opengreen_114W_coded.csv",
+   "lon": 121.51784,
+   "lat": 25.1482,
+   "layer": "3;4",
+   "sai": 62.21,
+   "canopy_m": 1.94,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "茶山自然教室之點線面的串連與再進化",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.57399,
+   "lat": 24.98865,
+   "layer": "3;4",
+   "sai": 27.02,
+   "canopy_m": 0.65,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "OPG 舊庄店仔口農園",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.60974,
+   "lat": 25.0361,
+   "layer": "3;4",
+   "sai": 62.86,
+   "canopy_m": 1.77,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "白石湖社區綠環境空間盤點計畫",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.5924,
+   "lat": 25.08382,
+   "layer": "3;4",
+   "sai": 32.07,
+   "canopy_m": 0.1,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "112年大湖社區親河親山環境串連計畫",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.5924,
+   "lat": 25.08382,
+   "layer": "3;4",
+   "sai": 32.07,
+   "canopy_m": 0.1,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "親近【內湖第一棵大樹】",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.5924,
+   "lat": 25.08382,
+   "layer": "3;4",
+   "sai": 32.07,
+   "canopy_m": 0.1,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "Open Corner, Open Power -共享綠空間奇蹟",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.60974,
+   "lat": 25.0361,
+   "layer": "3;4",
+   "sai": 62.86,
+   "canopy_m": 1.77,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "聯成社區巷弄香草園",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.60974,
+   "lat": 25.0361,
+   "layer": "3;4",
+   "sai": 62.86,
+   "canopy_m": 1.77,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "萬華糖廍 ESG 可食地景",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.49736,
+   "lat": 25.02937,
+   "layer": "3;4",
+   "sai": 21.1,
+   "canopy_m": 0.63,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "點亮寶村-共生聚落農園新生計畫",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.51986,
+   "lat": 25.03245,
+   "layer": "3;4",
+   "sai": 33.87,
+   "canopy_m": 0.13,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "113年大湖社區親河親山環境串連計畫",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.5924,
+   "lat": 25.08382,
+   "layer": "3;4",
+   "sai": 32.07,
+   "canopy_m": 0.1,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "大屯共饗空間",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.51784,
+   "lat": 25.1482,
+   "layer": "3;4",
+   "sai": 62.21,
+   "canopy_m": 1.94,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "善.美的生態x永續x美學基地-延平201",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.51322,
+   "lat": 25.064,
+   "layer": "3;4",
+   "sai": 15.84,
+   "canopy_m": 0.93,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "「中山有點草」城市生態野化計畫",
+   "src": "opengreen_112_113_coded.csv",
+   "lon": 121.53835,
+   "lat": 25.06985,
+   "layer": "3;4",
+   "sai": 17.49,
+   "canopy_m": 0.0,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "打造一條聯繫白屋與小白屋間的友善長廊",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.57399,
+   "lat": 24.98865,
+   "layer": "3;4",
+   "sai": 27.02,
+   "canopy_m": 0.65,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "茶山Open Green自然教室",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.57399,
+   "lat": 24.98865,
+   "layer": "3;4",
+   "sai": 27.02,
+   "canopy_m": 0.65,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "岩山仰德12 魚路古道口小花園",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.55088,
+   "lat": 25.1256,
+   "layer": "3;4",
+   "sai": 43.12,
+   "canopy_m": 5.76,
+   "quadrant": "high_supply_low_demand"
+  },
+  {
+   "case": "點亮太平町-台灣原生林下緣",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51322,
+   "lat": 25.064,
+   "layer": "3;4",
+   "sai": 15.84,
+   "canopy_m": 0.93,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "萬華堤內健康休閒空間",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.49736,
+   "lat": 25.02937,
+   "layer": "3;4",
+   "sai": 21.1,
+   "canopy_m": 0.63,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "打造一條聯繫白屋與小白屋間的友善長廊（後續擴充）",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.57399,
+   "lat": 24.98865,
+   "layer": "3;4",
+   "sai": 27.02,
+   "canopy_m": 0.65,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "茶山Open Green自然教室（後續擴充）",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.57399,
+   "lat": 24.98865,
+   "layer": "3;4",
+   "sai": 27.02,
+   "canopy_m": 0.65,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "岩山湧泉生態步道",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.55088,
+   "lat": 25.1256,
+   "layer": "3;4",
+   "sai": 43.12,
+   "canopy_m": 5.76,
+   "quadrant": "high_supply_low_demand"
+  },
+  {
+   "case": "美崙“山‧城”觀景台改造計畫",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.55088,
+   "lat": 25.1256,
+   "layer": "3;4",
+   "sai": 43.12,
+   "canopy_m": 5.76,
+   "quadrant": "high_supply_low_demand"
+  },
+  {
+   "case": "湖山香香機",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51784,
+   "lat": 25.1482,
+   "layer": "3;4",
+   "sai": 62.21,
+   "canopy_m": 1.94,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "厝邊叨，修揪來坐～",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51784,
+   "lat": 25.1482,
+   "layer": "3;4",
+   "sai": 62.21,
+   "canopy_m": 1.94,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "城北心焦點",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.53835,
+   "lat": 25.06985,
+   "layer": "3;4",
+   "sai": 17.49,
+   "canopy_m": 0.0,
+   "quadrant": "low_supply_low_demand"
+  },
+  {
+   "case": "點亮太平町2-共學食物森林",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51322,
+   "lat": 25.064,
+   "layer": "3;4",
+   "sai": 15.84,
+   "canopy_m": 0.93,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "看見柴仔寮-社區認養空間活化計畫",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51322,
+   "lat": 25.064,
+   "layer": "3;4",
+   "sai": 15.84,
+   "canopy_m": 0.93,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "逆風文創－社區藝術共響聚落",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51322,
+   "lat": 25.064,
+   "layer": "3;4",
+   "sai": 15.84,
+   "canopy_m": 0.93,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "迪化街都市花器",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51322,
+   "lat": 25.064,
+   "layer": "3;4",
+   "sai": 15.84,
+   "canopy_m": 0.93,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "糖廍社協前綠地改造",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.49736,
+   "lat": 25.02937,
+   "layer": "3;4",
+   "sai": 21.1,
+   "canopy_m": 0.63,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "安心老的友善社區",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51986,
+   "lat": 25.03245,
+   "layer": "3;4",
+   "sai": 33.87,
+   "canopy_m": 0.13,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "OPEN Park ─ IS 農源",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51986,
+   "lat": 25.03245,
+   "layer": "3;4",
+   "sai": 33.87,
+   "canopy_m": 0.13,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "「古意」「綠意」~愜意綠家園",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51986,
+   "lat": 25.03245,
+   "layer": "3;4",
+   "sai": 33.87,
+   "canopy_m": 0.13,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "南昌中式綠洲計畫",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51986,
+   "lat": 25.03245,
+   "layer": "3;4",
+   "sai": 33.87,
+   "canopy_m": 0.13,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "岩山湧泉生態步道",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.55088,
+   "lat": 25.1256,
+   "layer": "3;4",
+   "sai": 43.12,
+   "canopy_m": 5.76,
+   "quadrant": "high_supply_low_demand"
+  },
+  {
+   "case": "點亮太平町2-共學食物森林",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51322,
+   "lat": 25.064,
+   "layer": "3;4",
+   "sai": 15.84,
+   "canopy_m": 0.93,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "看見柴仔寮-社區認養空間活化計畫",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51322,
+   "lat": 25.064,
+   "layer": "3;4",
+   "sai": 15.84,
+   "canopy_m": 0.93,
+   "quadrant": "low_supply_high_demand"
+  },
+  {
+   "case": "OPEN Park ─ IS 農源",
+   "src": "opengreen_108_111_coded.csv",
+   "lon": 121.51986,
+   "lat": 25.03245,
+   "layer": "3;4",
+   "sai": 33.87,
+   "canopy_m": 0.13,
+   "quadrant": "low_supply_high_demand"
+  }
+ ]
+}

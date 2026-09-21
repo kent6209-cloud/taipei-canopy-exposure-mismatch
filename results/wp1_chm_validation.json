@@ -1,0 +1,209 @@
+{
+ "meta": {
+  "chm": "E:\\GeoAI\\20260909_taiwan_chmv2\\county\\臺北市.tif",
+  "chm_res_m": 1.1943,
+  "chm_crs": "EPSG:3857",
+  "chm_nodata": 255,
+  "tree_source": "taipei_trees_authoritative.csv",
+  "window": "3x3 (3.6 m)",
+  "n_candidates": 92626,
+  "note": "配對為同一座標而非同一株樹之嚴格對齊；僅作量級與偏差檢核。"
+ },
+ "centre_pixel": {
+  "n": 92625,
+  "mae": 5.938,
+  "rmse": 7.003,
+  "r": 0.399,
+  "bias_mean_pred_minus_obs": -5.378,
+  "obs_mean": 9.327,
+  "pred_mean": 3.95
+ },
+ "window_max": {
+  "n": 92626,
+  "mae": 5.323,
+  "rmse": 6.414,
+  "r": 0.417,
+  "bias_mean_pred_minus_obs": -4.562,
+  "obs_mean": 9.327,
+  "pred_mean": 4.766
+ },
+ "detected_only": {
+  "n": 55753,
+  "mae": 4.619,
+  "rmse": 5.647,
+  "r": 0.349,
+  "bias_mean_pred_minus_obs": -3.688,
+  "obs_mean": 10.25,
+  "pred_mean": 6.562
+ },
+ "detection": {
+  "n_census": 92626,
+  "n_chm_positive": 55753,
+  "detection_rate_pct": 60.19,
+  "note": "行道樹座標處 CHM>0 之比例；未偵測者計入全樣本誤差。"
+ },
+ "calibration_detected_only": {
+  "raw": {
+   "n": 55753,
+   "mae": 4.619,
+   "rmse": 5.647,
+   "r": 0.349,
+   "bias_mean_pred_minus_obs": -3.688,
+   "obs_mean": 10.25,
+   "pred_mean": 6.562
+  },
+  "global_offset": {
+   "n": 55753,
+   "mae": 3.297,
+   "rmse": 4.276,
+   "r": 0.349,
+   "bias_mean_pred_minus_obs": -0.0,
+   "obs_mean": 10.25,
+   "pred_mean": 10.25
+  },
+  "global_offset_value_m": 3.688,
+  "global_linear": {
+   "n": 55753,
+   "mae": 2.727,
+   "rmse": 3.477,
+   "r": 0.349,
+   "bias_mean_pred_minus_obs": -0.0,
+   "obs_mean": 10.25,
+   "pred_mean": 10.25
+  },
+  "global_linear_coef": {
+   "slope": 0.3419,
+   "intercept": 8.006,
+   "form": "census_height = 0.342 x CHM + 8.006"
+  }
+ },
+ "calibration": {
+  "raw": {
+   "n": 92625,
+   "mae": 5.938,
+   "rmse": 7.003,
+   "r": 0.399,
+   "bias_mean_pred_minus_obs": -5.378,
+   "obs_mean": 9.327,
+   "pred_mean": 3.95
+  },
+  "global_offset": {
+   "n": 92625,
+   "mae": 3.461,
+   "rmse": 4.486,
+   "r": 0.399,
+   "bias_mean_pred_minus_obs": 0.0,
+   "obs_mean": 9.327,
+   "pred_mean": 9.327
+  },
+  "global_offset_value_m": 5.378,
+  "district_offset": {
+   "n": 92625,
+   "mae": 3.391,
+   "rmse": 4.402,
+   "r": 0.426,
+   "bias_mean_pred_minus_obs": -0.0,
+   "obs_mean": 9.327,
+   "pred_mean": 9.327
+  },
+  "district_offset_value_m": {
+   "中山區": 6.223,
+   "中正區": 4.921,
+   "信義區": 6.478,
+   "內湖區": 5.927,
+   "北投區": 4.754,
+   "南港區": 5.694,
+   "士林區": 3.654,
+   "大同區": 5.155,
+   "大安區": 5.185,
+   "文山區": 6.384,
+   "松山區": 6.293,
+   "萬華區": 4.643
+  },
+  "global_linear": {
+   "n": 92625,
+   "mae": 2.754,
+   "rmse": 3.476,
+   "r": 0.399,
+   "bias_mean_pred_minus_obs": 0.0,
+   "obs_mean": 9.327,
+   "pred_mean": 9.327
+  },
+  "global_linear_coef": {
+   "slope": 0.348,
+   "intercept": 7.953,
+   "form": "census_height ≈ 0.348 × CHM + 7.953"
+  }
+ },
+ "reference_previous_session": {
+  "n_total": 92707,
+  "n_valid": 55782,
+  "mae": 4.619415402818113,
+  "rmse": 5.646955715614445,
+  "r": 0.34876993381933097,
+  "r2": 0.1216404667363405,
+  "bias": -3.6885850274282026
+ },
+ "by_district_bias": {
+  "中山區": {
+   "n": 9198,
+   "mean_bias_m": -6.223,
+   "rmse": 7.378
+  },
+  "中正區": {
+   "n": 6549,
+   "mean_bias_m": -4.921,
+   "rmse": 6.849
+  },
+  "信義區": {
+   "n": 7621,
+   "mean_bias_m": -6.478,
+   "rmse": 7.808
+  },
+  "內湖區": {
+   "n": 7540,
+   "mean_bias_m": -5.927,
+   "rmse": 7.118
+  },
+  "北投區": {
+   "n": 11653,
+   "mean_bias_m": -4.754,
+   "rmse": 6.105
+  },
+  "南港區": {
+   "n": 6343,
+   "mean_bias_m": -5.694,
+   "rmse": 6.945
+  },
+  "士林區": {
+   "n": 10415,
+   "mean_bias_m": -3.654,
+   "rmse": 5.296
+  },
+  "大同區": {
+   "n": 3290,
+   "mean_bias_m": -5.155,
+   "rmse": 6.845
+  },
+  "大安區": {
+   "n": 14324,
+   "mean_bias_m": -5.185,
+   "rmse": 7.381
+  },
+  "文山區": {
+   "n": 4465,
+   "mean_bias_m": -6.384,
+   "rmse": 7.876
+  },
+  "松山區": {
+   "n": 7966,
+   "mean_bias_m": -6.293,
+   "rmse": 8.035
+  },
+  "萬華區": {
+   "n": 3261,
+   "mean_bias_m": -4.643,
+   "rmse": 6.32
+  }
+ }
+}

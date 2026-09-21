@@ -1,0 +1,26 @@
+﻿year,region,case_name,district,village,site_address,proposing_unit,investment_type,layer,main_benefit,maintenance_years,verifiability,lon,lat,geo_level,coding_confidence,source_report
+2019,E,打造一條聯繫白屋與小白屋間的友善長廊,文山區,,,台北市文山區明興社區協會,建置;共同規劃,3;4,adaptation;nature;social,,中,121.57399,24.98865,district-centroid (approx.),inferred (待複核); 核定 25 萬元,108E
+2019,E,茶山Open Green自然教室,文山區,,,好孩子自然農場／茶山自然教室,建置;共同規劃,3;4,adaptation;nature;social,,中,121.57399,24.98865,district-centroid (approx.),inferred (待複核); 核定 25 萬元；原初選名「好孩子自然農場體驗營」,108E
+2019,W,岩山仰德12 魚路古道口小花園,士林區,,,鄭小塔,建置;共同規劃,3;4,adaptation;nature;social,,中,121.55088,25.1256,district-centroid (approx.),inferred (待複核); 認證；士林區,108W
+2019,W,點亮太平町-台灣原生林下緣,大同區,,,施瑛雪,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51322,25.064,district-centroid (approx.),inferred (待複核); 認證；大同區,108W
+2019,W,萬華堤內健康休閒空間,萬華區,,,王梧州,建置;共同規劃,3;4,adaptation;nature;social,,中,121.49736,25.02937,district-centroid (approx.),inferred (待複核); 認證；萬華區,108W
+2020,E,打造一條聯繫白屋與小白屋間的友善長廊（後續擴充）,文山區,,,台北市文山區明興社區協會,建置;共同規劃,3;4,adaptation;nature;social,,中,121.57399,24.98865,district-centroid (approx.),inferred (待複核); 與 108 東同案延續，勿重複計數,109E
+2020,E,茶山Open Green自然教室（後續擴充）,文山區,,,茶山自然教室,建置;共同規劃,3;4,adaptation;nature;social,,中,121.57399,24.98865,district-centroid (approx.),inferred (待複核); 與 108 東同案延續，勿重複計數,109E
+2021,W,岩山湧泉生態步道,士林區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.55088,25.1256,district-centroid (approx.),"inferred (待複核); 110 初選入圍；111 改造核定 281,000",110W
+2021,W,美崙“山‧城”觀景台改造計畫,士林區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.55088,25.1256,district-centroid (approx.),inferred (待複核); 110 初選入圍,110W
+2021,W,湖山香香機,北投區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51784,25.1482,district-centroid (approx.),inferred (待複核); 110 初選入圍,110W
+2021,W,厝邊叨，修揪來坐～,北投區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51784,25.1482,district-centroid (approx.),inferred (待複核); 110 初選入圍,110W
+2021,W,城北心焦點,中山區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.53835,25.06985,district-centroid (approx.),inferred (待複核); 110 初選入圍,110W
+2021,W,點亮太平町2-共學食物森林,大同區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51322,25.064,district-centroid (approx.),"inferred (待複核); 110 初選入圍；111 改造核定 252,700",110W
+2021,W,看見柴仔寮-社區認養空間活化計畫,大同區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51322,25.064,district-centroid (approx.),"inferred (待複核); 110 初選入圍；111 改造核定 156,000",110W
+2021,W,逆風文創－社區藝術共響聚落,大同區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51322,25.064,district-centroid (approx.),inferred (待複核); 110 初選入圍,110W
+2021,W,迪化街都市花器,大同區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51322,25.064,district-centroid (approx.),inferred (待複核); 110 初選入圍,110W
+2021,W,糖廍社協前綠地改造,萬華區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.49736,25.02937,district-centroid (approx.),inferred (待複核); 110 初選入圍,110W
+2021,W,安心老的友善社區,中正區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51986,25.03245,district-centroid (approx.),inferred (待複核); 110 初選入圍,110W
+2021,W,OPEN Park ─ IS 農源,中正區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51986,25.03245,district-centroid (approx.),"inferred (待複核); 110 初選入圍；111 改造核定 250,000",110W
+2021,W,「古意」「綠意」~愜意綠家園,中正區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51986,25.03245,district-centroid (approx.),inferred (待複核); 110 初選入圍,110W
+2021,W,南昌中式綠洲計畫,中正區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51986,25.03245,district-centroid (approx.),inferred (待複核); 110 初選入圍,110W
+2022,W,岩山湧泉生態步道,士林區,,,岩山生態文史志工團,建置;共同規劃,3;4,adaptation;nature;social,,中,121.55088,25.1256,district-centroid (approx.),"inferred (待複核); 核定 281,000；士林區芝玉路一段126號附近",111W
+2022,W,點亮太平町2-共學食物森林,大同區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51322,25.064,district-centroid (approx.),"inferred (待複核); 核定 252,700",111W
+2022,W,看見柴仔寮-社區認養空間活化計畫,大同區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51322,25.064,district-centroid (approx.),"inferred (待複核); 核定 156,000",111W
+2022,W,OPEN Park ─ IS 農源,中正區,,,,建置;共同規劃,3;4,adaptation;nature;social,,中,121.51986,25.03245,district-centroid (approx.),"inferred (待複核); 核定 250,000；110 年度通過複選共 4 案，總核定 939,700",111W

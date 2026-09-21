@@ -1,0 +1,515 @@
+{
+ "meta": {
+  "purpose": "掃描報告之 OCR 輔助候選案件（未經人工校對，不得逕行引為正式案例）",
+  "rule": "頁面同時含臺北市 12 區名稱與地址標記（巷/號/街/路/里/段/弄）→ 候選案例頁；連續頁合併為一案",
+  "note": "OCR 之案件名稱辨識率不足（欄位標籤可辨識次數為 0），故僅登錄行政區與證據頁碼。"
+ },
+ "by_report": [
+  {
+   "report": "109W.ocr.txt",
+   "year": "109",
+   "region": "W",
+   "n_candidate_cases": 22,
+   "cases": [
+    {
+     "pages": [
+      3
+     ],
+     "districts": [
+      "南港區",
+      "萬華區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      6
+     ],
+     "districts": [
+      "士林區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      8
+     ],
+     "districts": [
+      "士林區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      13
+     ],
+     "districts": [
+      "士林區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      16
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      23
+     ],
+     "districts": [
+      "萬華區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      60
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      63
+     ],
+     "districts": [
+      "士林區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      65
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      78
+     ],
+     "districts": [
+      "萬華區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      99
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      126
+     ],
+     "districts": [
+      "南港區",
+      "萬華區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      152
+     ],
+     "districts": [
+      "大同區",
+      "大安區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      166
+     ],
+     "districts": [
+      "士林區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      171
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      173
+     ],
+     "districts": [
+      "士林區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      175
+     ],
+     "districts": [
+      "萬華區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      177
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      182
+     ],
+     "districts": [
+      "大安區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      196
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      199
+     ],
+     "districts": [
+      "中山區",
+      "大安區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      203
+     ],
+     "districts": [
+      "士林區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    }
+   ]
+  },
+  {
+   "report": "110E.ocr.txt",
+   "year": "110",
+   "region": "E",
+   "n_candidate_cases": 14,
+   "cases": [
+    {
+     "pages": [
+      5
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      17
+     ],
+     "districts": [
+      "內湖區",
+      "南港區",
+      "文山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      19,
+      20
+     ],
+     "districts": [
+      "信義區",
+      "南港區",
+      "大安區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      22,
+      23
+     ],
+     "districts": [
+      "信義區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      31
+     ],
+     "districts": [
+      "信義區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      33
+     ],
+     "districts": [
+      "信義區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      36,
+      37
+     ],
+     "districts": [
+      "信義區",
+      "內湖區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      99
+     ],
+     "districts": [
+      "內湖區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      101,
+      102
+     ],
+     "districts": [
+      "信義區",
+      "內湖區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      114,
+      115,
+      116
+     ],
+     "districts": [
+      "信義區",
+      "文山區",
+      "松山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      157
+     ],
+     "districts": [
+      "文山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      160
+     ],
+     "districts": [
+      "文山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      185
+     ],
+     "districts": [
+      "松山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      196,
+      197
+     ],
+     "districts": [
+      "松山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    }
+   ]
+  },
+  {
+   "report": "111E.ocr.txt",
+   "year": "111",
+   "region": "E",
+   "n_candidate_cases": 14,
+   "cases": [
+    {
+     "pages": [
+      7
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      11
+     ],
+     "districts": [
+      "文山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      19
+     ],
+     "districts": [
+      "文山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      22
+     ],
+     "districts": [
+      "南港區",
+      "大安區",
+      "文山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      30
+     ],
+     "districts": [
+      "松山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      33
+     ],
+     "districts": [
+      "松山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      42,
+      43
+     ],
+     "districts": [
+      "中正區",
+      "士林區",
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      49
+     ],
+     "districts": [
+      "文山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      73,
+      74
+     ],
+     "districts": [
+      "中正區",
+      "士林區",
+      "大同區",
+      "文山區",
+      "松山區",
+      "萬華區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      81
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      98
+     ],
+     "districts": [
+      "大同區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      106
+     ],
+     "districts": [
+      "南港區",
+      "大安區",
+      "文山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      110
+     ],
+     "districts": [
+      "松山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    },
+    {
+     "pages": [
+      116
+     ],
+     "districts": [
+      "松山區"
+     ],
+     "evidence": "OCR 頁面含區名與地址標記"
+    }
+   ]
+  }
+ ]
+}

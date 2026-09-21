@@ -1,0 +1,46 @@
+{
+ "meta": {
+  "grid": "100 m EPSG:3826",
+  "budget_cells_1ha": 500,
+  "canopy_added_m": 3.0,
+  "canopy_cap_m": 30.0,
+  "type": "decision-support PROTOTYPE / what-if scenario tool (NOT a calibrated cost-benefit model)",
+  "note": "carbon gain is a ΣH-like proxy (m·ha), NOT verified carbon credits",
+  "equal_carbon_assumption": "by construction every scenario adds the same canopy (+3 m to each selected cell), so the equal carbon gain is a MODEL ASSUMPTION, not an empirical finding; differences in accessibility benefit reflect the allocation rule, NOT causal effects"
+ },
+ "scenarios": {
+  "A_carbon_first": {
+   "cells_invested": 500,
+   "carbon_proxy_gain_m_ha": 1500.0,
+   "pop_weighted_sai_before": 29.49,
+   "pop_weighted_sai_after": 29.52,
+   "pop_weighted_sai_gain": 0.025,
+   "beneficiary_pop_units": 922.0,
+   "mean_elev_m": 446.8,
+   "share_flat_pct": 0.0,
+   "share_mountain_pct": 94.8
+  },
+  "B_demand_first": {
+   "cells_invested": 500,
+   "carbon_proxy_gain_m_ha": 1500.0,
+   "pop_weighted_sai_before": 29.49,
+   "pop_weighted_sai_after": 30.35,
+   "pop_weighted_sai_gain": 0.853,
+   "beneficiary_pop_units": 231710.0,
+   "mean_elev_m": 6.9,
+   "share_flat_pct": 98.2,
+   "share_mountain_pct": 0.0
+  },
+  "C_balanced": {
+   "cells_invested": 500,
+   "carbon_proxy_gain_m_ha": 1500.0,
+   "pop_weighted_sai_before": 29.49,
+   "pop_weighted_sai_after": 29.87,
+   "pop_weighted_sai_gain": 0.381,
+   "beneficiary_pop_units": 62219.0,
+   "mean_elev_m": 77.1,
+   "share_flat_pct": 22.4,
+   "share_mountain_pct": 16.0
+  }
+ }
+}

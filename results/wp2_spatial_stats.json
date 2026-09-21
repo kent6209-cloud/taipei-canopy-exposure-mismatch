@@ -1,0 +1,57 @@
+{
+ "meta": {
+  "grid_res_m": 100.0,
+  "n_cells": 27652,
+  "nperm": 999,
+  "weights": "queen contiguity, row-standardised",
+  "alpha": 0.05
+ },
+ "global_moran": {
+  "canopy_supply": {
+   "I": 0.8168,
+   "p": 0.001
+  },
+  "sai": {
+   "I": 0.994,
+   "p": 0.001
+  },
+  "mismatch_deficit": {
+   "I": 0.8928,
+   "p": 0.001
+  },
+  "bivariate_canopy_vs_pop": {
+   "I": -0.443,
+   "p": 0.001
+  }
+ },
+ "lisa_mismatch": {
+  "HH": 6274,
+  "LL": 7349,
+  "LH": 8,
+  "HL": 11,
+  "not_significant": 14010
+ },
+ "quadrants": {
+  "high_supply_high_demand": 555,
+  "high_supply_low_demand": 11045,
+  "low_supply_high_demand": 7911,
+  "low_supply_low_demand": 8141
+ },
+ "correlations": {
+  "canopy_vs_pop_residential": {
+   "rho": -0.5293,
+   "p": 0.0,
+   "n": 23342
+  },
+  "sai_vs_pop_residential": {
+   "rho": -0.5995,
+   "p": 0.0,
+   "n": 23342
+  },
+  "canopy_vs_sai_all": {
+   "rho": 0.7813,
+   "p": 0.0,
+   "n": 27652
+  }
+ }
+}

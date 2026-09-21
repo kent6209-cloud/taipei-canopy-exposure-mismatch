@@ -1,0 +1,28 @@
+{
+ "meta": {
+  "net_res_m": 20.0,
+  "access_radius_m": 500.0,
+  "green_threshold": 0.5,
+  "canopy_source_threshold_m": 2.0,
+  "method": "road-polygon rasterisation -> skeletonisation -> 8-neighbour graph Dijkstra from source road pixels (APPROXIMATION)",
+  "n_residential_cells": 23342
+ },
+ "variants": {
+  "any_green_space": {
+   "source_cells": 16465,
+   "network_share_within_500m_pct": 62.46,
+   "network_median_dist_m": 371.1,
+   "euclidean_share_within_500m_pct": 97.46,
+   "agreement_rate_pct": 64.99,
+   "spearman_netdist_vs_pop": -0.373
+  },
+  "canopy_ge_2m": {
+   "source_cells": 46694,
+   "network_share_within_500m_pct": 60.37,
+   "network_median_dist_m": 387.3,
+   "euclidean_share_within_500m_pct": 98.05,
+   "agreement_rate_pct": 62.32,
+   "spearman_netdist_vs_pop": -0.399
+  }
+ }
+}

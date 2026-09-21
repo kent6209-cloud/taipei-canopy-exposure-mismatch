@@ -1,0 +1,466 @@
+{
+ "meta": {
+  "npp_source": "CASA × 調和 NDVI 之年 NPP（gC/m²/yr）；來源專案 E:\\SCI\\20260704",
+  "grid": "100 m EPSG:3826（與 wp2_rasters 相同）",
+  "n_years": 28,
+  "years": [
+   1998,
+   2025
+  ],
+  "unusable_years": [
+   2003,
+   2008,
+   2015,
+   2025
+  ],
+  "verdict": "現有 NPP 產品**不足以**支持可辯護之時序或空間通量分析：4 個年度實質無效、感測器世代零值比例不連續（Landsat 1–20 % vs Sentinel-2 45–52 %）、山地帶大面積遮罩；MODIS 降尺度產品為常數柵格。WP3 之通量延伸維持【待補】；本文續以 ΣH（結構）為供給代理，並嚴格區分 stock 與 flux。",
+  "caveats": [
+   "NPP 為通量、ΣH 為冠層結構存量代理，兩者不可互換或相加，亦不得換算為碳權。",
+   "本檢核不做趨勢之外的推論；趨勢僅在同一感測器世代內計算。"
+  ]
+ },
+ "annual_quality": [
+  {
+   "year": 1998,
+   "sensor": "LT05",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 5.8,
+   "mean_positive": 1141.0,
+   "mean_all": 1075.0,
+   "mean_positive_deficit": 547.0,
+   "mean_positive_other": 1394.0,
+   "usable": true
+  },
+  {
+   "year": 1999,
+   "sensor": "LT05",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 47.6,
+   "mean_positive": 562.0,
+   "mean_all": 294.0,
+   "mean_positive_deficit": 275.0,
+   "mean_positive_other": 630.0,
+   "usable": true
+  },
+  {
+   "year": 2000,
+   "sensor": "LE07",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 0.9,
+   "mean_positive": 1195.0,
+   "mean_all": 1185.0,
+   "mean_positive_deficit": 648.0,
+   "mean_positive_other": 1421.0,
+   "usable": true
+  },
+  {
+   "year": 2001,
+   "sensor": "LE07",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 18.9,
+   "mean_positive": 1486.0,
+   "mean_all": 1206.0,
+   "mean_positive_deficit": 777.0,
+   "mean_positive_other": 1836.0,
+   "usable": true
+  },
+  {
+   "year": 2002,
+   "sensor": "LE07",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 2.2,
+   "mean_positive": 1907.0,
+   "mean_all": 1865.0,
+   "mean_positive_deficit": 726.0,
+   "mean_positive_other": 2398.0,
+   "usable": true
+  },
+  {
+   "year": 2003,
+   "sensor": "LE07",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 98.7,
+   "mean_positive": 35.0,
+   "mean_all": 0.0,
+   "mean_positive_deficit": 23.0,
+   "mean_positive_other": 37.0,
+   "usable": false
+  },
+  {
+   "year": 2004,
+   "sensor": "LE07",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 19.1,
+   "mean_positive": 2199.0,
+   "mean_all": 1778.0,
+   "mean_positive_deficit": 952.0,
+   "mean_positive_other": 2749.0,
+   "usable": true
+  },
+  {
+   "year": 2005,
+   "sensor": "LT05",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 3.2,
+   "mean_positive": 2011.0,
+   "mean_all": 1946.0,
+   "mean_positive_deficit": 777.0,
+   "mean_positive_other": 2531.0,
+   "usable": true
+  },
+  {
+   "year": 2006,
+   "sensor": "LT05",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 2.4,
+   "mean_positive": 1916.0,
+   "mean_all": 1870.0,
+   "mean_positive_deficit": 792.0,
+   "mean_positive_other": 2387.0,
+   "usable": true
+  },
+  {
+   "year": 2007,
+   "sensor": "LT05",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 1.7,
+   "mean_positive": 2184.0,
+   "mean_all": 2146.0,
+   "mean_positive_deficit": 919.0,
+   "mean_positive_other": 2712.0,
+   "usable": true
+  },
+  {
+   "year": 2008,
+   "sensor": "LE07",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 84.4,
+   "mean_positive": 315.0,
+   "mean_all": 49.0,
+   "mean_positive_deficit": 200.0,
+   "mean_positive_other": 334.0,
+   "usable": false
+  },
+  {
+   "year": 2009,
+   "sensor": "LE07",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 10.7,
+   "mean_positive": 2058.0,
+   "mean_all": 1837.0,
+   "mean_positive_deficit": 870.0,
+   "mean_positive_other": 2545.0,
+   "usable": true
+  },
+  {
+   "year": 2010,
+   "sensor": "LE07",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 15.4,
+   "mean_positive": 2248.0,
+   "mean_all": 1902.0,
+   "mean_positive_deficit": 915.0,
+   "mean_positive_other": 2799.0,
+   "usable": true
+  },
+  {
+   "year": 2011,
+   "sensor": "LT05",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 2.6,
+   "mean_positive": 1464.0,
+   "mean_all": 1426.0,
+   "mean_positive_deficit": 526.0,
+   "mean_positive_other": 1857.0,
+   "usable": true
+  },
+  {
+   "year": 2012,
+   "sensor": "LE07",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 3.2,
+   "mean_positive": 2016.0,
+   "mean_all": 1951.0,
+   "mean_positive_deficit": 901.0,
+   "mean_positive_other": 2482.0,
+   "usable": true
+  },
+  {
+   "year": 2013,
+   "sensor": "LE07",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 20.0,
+   "mean_positive": 1561.0,
+   "mean_all": 1250.0,
+   "mean_positive_deficit": 683.0,
+   "mean_positive_other": 1935.0,
+   "usable": true
+  },
+  {
+   "year": 2014,
+   "sensor": "LC08",
+   "era": "Landsat (1998–2014)",
+   "n_cells": 27228,
+   "zero_share_pct": 12.7,
+   "mean_positive": 1527.0,
+   "mean_all": 1333.0,
+   "mean_positive_deficit": 950.0,
+   "mean_positive_other": 1782.0,
+   "usable": true
+  },
+  {
+   "year": 2015,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 96.7,
+   "mean_positive": 452.0,
+   "mean_all": 15.0,
+   "mean_positive_deficit": 309.0,
+   "mean_positive_other": 477.0,
+   "usable": false
+  },
+  {
+   "year": 2016,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 53.8,
+   "mean_positive": 1289.0,
+   "mean_all": 596.0,
+   "mean_positive_deficit": 623.0,
+   "mean_positive_other": 1802.0,
+   "usable": true
+  },
+  {
+   "year": 2017,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 45.9,
+   "mean_positive": 1310.0,
+   "mean_all": 709.0,
+   "mean_positive_deficit": 596.0,
+   "mean_positive_other": 1871.0,
+   "usable": true
+  },
+  {
+   "year": 2018,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 45.6,
+   "mean_positive": 1322.0,
+   "mean_all": 719.0,
+   "mean_positive_deficit": 672.0,
+   "mean_positive_other": 1833.0,
+   "usable": true
+  },
+  {
+   "year": 2019,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 45.4,
+   "mean_positive": 1241.0,
+   "mean_all": 677.0,
+   "mean_positive_deficit": 580.0,
+   "mean_positive_other": 1762.0,
+   "usable": true
+  },
+  {
+   "year": 2020,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 46.3,
+   "mean_positive": 1189.0,
+   "mean_all": 638.0,
+   "mean_positive_deficit": 539.0,
+   "mean_positive_other": 1693.0,
+   "usable": true
+  },
+  {
+   "year": 2021,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 45.3,
+   "mean_positive": 1675.0,
+   "mean_all": 916.0,
+   "mean_positive_deficit": 787.0,
+   "mean_positive_other": 2371.0,
+   "usable": true
+  },
+  {
+   "year": 2022,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 52.2,
+   "mean_positive": 1126.0,
+   "mean_all": 538.0,
+   "mean_positive_deficit": 450.0,
+   "mean_positive_other": 1555.0,
+   "usable": true
+  },
+  {
+   "year": 2023,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 50.7,
+   "mean_positive": 920.0,
+   "mean_all": 454.0,
+   "mean_positive_deficit": 376.0,
+   "mean_positive_other": 1287.0,
+   "usable": true
+  },
+  {
+   "year": 2024,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 51.3,
+   "mean_positive": 1109.0,
+   "mean_all": 540.0,
+   "mean_positive_deficit": 473.0,
+   "mean_positive_other": 1529.0,
+   "usable": true
+  },
+  {
+   "year": 2025,
+   "sensor": "S2",
+   "era": "Sentinel-2 (2015–2025)",
+   "n_cells": 27228,
+   "zero_share_pct": 100.0,
+   "mean_positive": 0.0,
+   "mean_all": 0.0,
+   "mean_positive_deficit": NaN,
+   "mean_positive_other": NaN,
+   "usable": false
+  }
+ ],
+ "era_trends": {
+  "landsat": {
+   "years": [
+    1998,
+    2014
+   ],
+   "n_years": 15,
+   "slope_per_year": 41.8,
+   "mean": 1698.0,
+   "pct_of_mean_per_decade": 24.6
+  },
+  "sentinel2": {
+   "years": [
+    2016,
+    2024
+   ],
+   "n_years": 9,
+   "slope_per_year": -30.8,
+   "mean": 1242.0,
+   "pct_of_mean_per_decade": -24.8
+  }
+ },
+ "modis_downscale_check": {
+  "constant_raster": true,
+  "detail": [
+   {
+    "year": 2001,
+    "std": 0.0,
+    "min": 3.277,
+    "max": 3.277
+   },
+   {
+    "year": 2002,
+    "std": 0.0,
+    "min": 3.277,
+    "max": 3.277
+   },
+   {
+    "year": 2003,
+    "std": 0.0,
+    "min": 3.277,
+    "max": 3.277
+   }
+  ],
+  "n_files": 24
+ },
+ "reference_year_2019": {
+  "zero_share_pct": 45.4,
+  "spearman_npp_vs_canopy": 0.826,
+  "spearman_npp_vs_sai": 0.649,
+  "spearman_npp_vs_pop": -0.7,
+  "mean_positive_deficit_cells": 580.0,
+  "mean_positive_other_cells": 1762.0
+ },
+ "by_elevation_band_2019": [
+  {
+   "band": "都市平地 0–20 m",
+   "n_cells": 11877,
+   "zero_share_pct": 17.8,
+   "n_positive": 9762,
+   "mean_positive": 725.0,
+   "share_of_npp_positive_pct": 38.4,
+   "share_of_canopy_pct": 8.2,
+   "mean_canopy_m": 0.9
+  },
+  {
+   "band": "丘陵近山 20–100 m",
+   "n_cells": 4431,
+   "zero_share_pct": 44.2,
+   "n_positive": 2472,
+   "mean_positive": 2027.0,
+   "share_of_npp_positive_pct": 27.2,
+   "share_of_canopy_pct": 22.0,
+   "mean_canopy_m": 6.49
+  },
+  {
+   "band": "淺山 100–300 m",
+   "n_cells": 4530,
+   "zero_share_pct": 55.5,
+   "n_positive": 2015,
+   "mean_positive": 2402.0,
+   "share_of_npp_positive_pct": 26.2,
+   "share_of_canopy_pct": 27.2,
+   "mean_canopy_m": 7.85
+  },
+  {
+   "band": "山地 300–600 m",
+   "n_cells": 4045,
+   "zero_share_pct": 84.7,
+   "n_positive": 617,
+   "mean_positive": 2453.0,
+   "share_of_npp_positive_pct": 8.2,
+   "share_of_canopy_pct": 27.6,
+   "mean_canopy_m": 8.94
+  },
+  {
+   "band": "中高山 > 600 m",
+   "n_cells": 2345,
+   "zero_share_pct": 100.0,
+   "n_positive": 0,
+   "mean_positive": 0.0,
+   "share_of_npp_positive_pct": 0.0,
+   "share_of_canopy_pct": 13.2,
+   "mean_canopy_m": 7.35
+  }
+ ]
+}

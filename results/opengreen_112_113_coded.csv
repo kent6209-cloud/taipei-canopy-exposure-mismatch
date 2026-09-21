@@ -1,0 +1,22 @@
+﻿year,region,case_name,district,village,site_address,proposing_unit,investment_type,layer,main_benefit,maintenance_years,verifiability,lon,lat,geo_level,coding_confidence,source_report
+2023,E,茶山自然教室之點線面的串連與再進化,文山區,,,茶山自然教室（張錦祥）,建置;共同規劃,3;4,adaptation;nature;social,,中,121.57399,24.98865,district-centroid (approx.),"inferred (待複核); 核定 225,900 元；平均 86.5 分",112E
+2023,E,OPG 舊庄店仔口農園,南港區,舊莊里,,張瑞芳,建置;共同規劃,3;4,adaptation;nature;social,,中,121.60974,25.0361,district-centroid (approx.),"inferred (待複核); 核定 300,000 元；平均 84.125 分",112E
+2023,E,白石湖社區綠環境空間盤點計畫,內湖區,,,臺北市內湖區白石湖社區發展協會,共同規劃,3;4,nature;social,,中,121.5924,25.08382,district-centroid (approx.),inferred (待複核); 112 東（md 表）,112E
+2023,E,112年大湖社區親河親山環境串連計畫,內湖區,大湖里,,臺北市內湖區大湖社區發展協會,共同規劃;建置,3;4,adaptation;nature;social,,中,121.5924,25.08382,district-centroid (approx.),inferred (待複核); 112 東（md 表）,112E
+2023,E,親近【內湖第一棵大樹】,內湖區,,,王郁蘭,共同規劃,3;4,social;nature,,中,121.5924,25.08382,district-centroid (approx.),inferred (待複核); 112 東（md 表）,112E
+2023,E,"Open Corner, Open Power -共享綠空間奇蹟",南港區,,,臺北市南港區久如社區發展協會,共同規劃;建置,3;4,adaptation;social,,中,121.60974,25.0361,district-centroid (approx.),inferred (待複核); 112 東（md 表）,112E
+2023,E,聯成社區巷弄香草園,南港區,,,臺北市南港區聯成社區發展協會,共同規劃,3;4,nature;social,,中,121.60974,25.0361,district-centroid (approx.),inferred (待複核); 112 東（md 表）,112E
+2023,W,Open Yard 打開大我的院子,,,,岩山社區文史志工團,建置;共同規劃,3;4,adaptation;social,,中,,,,inferred (待複核); 核定 30 萬元,112W
+2023,W,萬華糖廍 ESG 可食地景,萬華區,,,萬華社區小學,建置;共同規劃,3;4,nature;social,,中,121.49736,25.02937,district-centroid (approx.),inferred (待複核); 核定 14 萬元,112W
+2023,W,點亮寶村-共生聚落農園新生計畫,中正區,,,台北市寶藏巖文化村協會,建置;共同規劃,3;4,adaptation;social,,中,121.51986,25.03245,district-centroid (approx.),inferred (待複核); 核定 10 萬元,112W
+2024,E,113年大湖社區親河親山環境串連計畫,內湖區,大湖里,,大湖居安社區發展協會,建置;共同規劃,3;4,adaptation;nature;social,,中,121.5924,25.08382,district-centroid (approx.),"inferred (待複核); 核定 250,000 元",113E
+2024,E,再造華夏-荒蕪空地的華麗轉身,,古莊里,,,建置;共同規劃,3;4,adaptation;social,,中,,,,"inferred (待複核); 核定 250,000 元",113E
+2024,E,古亭市場,,,,,建置;共同規劃,3;4,social,,中,,,,"inferred (待複核); 核定 250,000 元",113E
+2024,E,119 地號田園城市,,景聯里,,,建置;共同規劃,3;4,adaptation;social,,中,,,,"inferred (待複核); 核定 250,000 元（三興段一小段 119 地號）",113E
+2024,E,共耕食代綠色生活圈—共生聚落發展計畫,,,,共耕食代企業社,共同規劃,3;4,social;nature,,中,,,,inferred (待複核); 整備組,113E
+2024,E,打造新世代共學生活村,,,,社團法人台灣展賦協會,共同規劃,3;4,social,,中,,,,inferred (待複核); 整備組,113E
+2024,E,脫鞋趣,,,,向日有機農場,共同規劃,3;4,nature;social,,中,,,,inferred (待複核); 整備組,113E
+2024,W,大屯共饗空間,北投區,,,張天恩,建置;共同規劃,3;4,adaptation;social,,中,121.51784,25.1482,district-centroid (approx.),"inferred (待複核); 核定 270,000 元；已營運有成",113W
+2024,W,善.美的生態x永續x美學基地-延平201,大同區,,,財團法人台北市至善堂,建置;共同規劃,3;4,adaptation;social,,中,121.51322,25.064,district-centroid (approx.),"inferred (待複核); 核定 300,000 元",113W
+2024,W,攜家帶眷，做伙來OPH,,,,財團法人台北市客家文化基金會,建置;共同規劃,3;4,nature;social,,中,,,,"inferred (待複核); 核定 150,000 元（客家農場）",113W
+2024,W,「中山有點草」城市生態野化計畫,中山區,,,雜草稍慢,共同規劃;維護,3;4,nature;social,,中,121.53835,25.06985,district-centroid (approx.),"inferred (待複核); 核定 280,000 元",113W

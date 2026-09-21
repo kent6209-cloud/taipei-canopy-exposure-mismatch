@@ -1,0 +1,12 @@
+﻿year,region,case_name,district,village,site_address,proposing_unit,investment_type,layer,main_benefit,maintenance_years,verifiability,lon,lat,geo_level,coding_confidence,source_report
+2025,E,翠湖農園改造計畫,內湖區,大湖里,台北市內湖區大湖山莊街131號,大湖居安社區發展協會（拜訪紀錄）,建置;維護,3;4,adaptation;social,,中,121.5924,25.08382,district-centroid (approx.),inferred (待複核),114E
+2025,E,脫鞋趣2.0,,,,,建置,3;4,social;nature,,低-中,,,,inferred (待複核),114E
+2025,E,廣慈田田圈—打造社宅綠屋頂生態跳島行動計畫,信義區,大仁里,台北市信義區福德街86號R樓（信義區公所頂樓）,共耕食代企業社（拜訪紀錄）,建置;共同規劃,3;4,adaptation;nature;social,,中,121.57166,25.03075,district-centroid (approx.),inferred (待複核),114E
+2025,E,古風共學共做串燒,大安區,古風里,,臺北市大安區古風社區發展協會（拜訪紀錄）,勞務;共同規劃,3;4,social;nature,,中,121.54343,25.02686,district-centroid (approx.),inferred (待複核),114E
+2025,E,綠活・共生,,,,,勞務;共同規劃,3;4,social,,中,,,,inferred (待複核),114E
+2025,E,里山淨零-店仔綠生活體驗,南港區,舊莊里,,張瑞芳（舊庄店仔復興）,勞務;共同規劃,3;4,nature;social,,中,121.60974,25.0361,district-centroid (approx.),inferred (待複核),114E
+2025,E,松榕農園改造計畫,信義區,松隆里,,,建置,3;4,adaptation;social,,低-中,121.57166,25.03075,district-centroid (approx.),inferred (待複核),114E
+2025,E,西湖里綠園圃整理計畫,內湖區,西湖里,,黃俊隆（西湖社區發展協會）,建置;維護,3;4,adaptation;social,,中,121.5924,25.08382,district-centroid (approx.),inferred (待複核),114E
+2025,E,行善內湖·食全拾美,內湖區,湖元里,,杜瑋霖,共同規劃;維護,3;4,social;nature,,中,121.5924,25.08382,district-centroid (approx.),inferred (待複核),114E
+2025,E,建安光影.隨憶而安,大安區,建安里,建安里（捷運忠孝敦化2號出口）,臺北市大安社區大學（拜訪紀錄）,共同規劃;勞務,3;4,social,,中,121.54343,25.02686,district-centroid (approx.),inferred (待複核),114E
+2025,E,象山農場環境整體調查,信義區,三犁里,,臺北市藝術統合教育研究會（象山農場）,共同規劃,3;4,nature;social,,中,121.57166,25.03075,district-centroid (approx.),inferred (待複核),114E

@@ -1,0 +1,67 @@
+{
+ "meta": {
+  "grid": "100 m EPSG:3826 (same grid as wp2_rasters)",
+  "n_valid_cells": 27652,
+  "n_residential_cells_worldpop": 23342,
+  "village_month": {
+   "year": 2026,
+   "month": 8
+  },
+  "n_villages": 456,
+  "n_villages_in_grid": 456,
+  "villages_missing_pop": [],
+  "villages_unmatched_names": 0,
+  "official_pop_total": 2421830.0,
+  "weight_sources": {
+   "W1_worldpop": "WorldPop-derived relative density (baseline, wp2)",
+   "W2_village_x_worldpop": "official village totals x WorldPop intra-village pattern",
+   "W3_village_uniform": "official village totals spread uniformly over valid cells"
+  },
+  "caveat": "戶籍人口 ≠ 常住/日夜間活動人口；村里界為 115 年版。",
+  "deficit_rule": "supply=canopy<=mean 且 demand=pop>mean（同 §5.4 四象限）"
+ },
+ "baseline_reproduction": {
+  "sai_area_weighted": 43.06,
+  "sai_pop_weighted": 29.49,
+  "canopy_area_weighted_m": 3.96,
+  "canopy_pop_weighted_m": 1.32,
+  "spearman_sai_vs_pop": -0.599,
+  "spearman_canopy_vs_pop": -0.529
+ },
+ "by_weight": {
+  "W1_worldpop": {
+   "n_cells": 23342,
+   "pop_total": 1934931.1,
+   "area_weighted_SAI": 43.06,
+   "pop_weighted_SAI": 29.49,
+   "gap_area_minus_pop": 13.56,
+   "pop_weighted_canopy_m": 1.319,
+   "spearman_SAI_vs_pop": -0.599,
+   "spearman_canopy_vs_pop": -0.529,
+   "pop_share_in_deficit_pct": 84.87
+  },
+  "W2_village_x_worldpop": {
+   "n_cells": 22922,
+   "pop_total": 2421830.0,
+   "area_weighted_SAI": 43.18,
+   "pop_weighted_SAI": 27.71,
+   "gap_area_minus_pop": 15.47,
+   "pop_weighted_canopy_m": 1.103,
+   "spearman_SAI_vs_pop": -0.642,
+   "spearman_canopy_vs_pop": -0.556,
+   "pop_share_in_deficit_pct": 82.61
+  },
+  "W3_village_uniform": {
+   "n_cells": 26837,
+   "pop_total": 2421830.0,
+   "area_weighted_SAI": 46.74,
+   "pop_weighted_SAI": 29.2,
+   "gap_area_minus_pop": 17.54,
+   "pop_weighted_canopy_m": 1.788,
+   "spearman_SAI_vs_pop": -0.707,
+   "spearman_canopy_vs_pop": -0.525,
+   "pop_share_in_deficit_pct": 67.2
+  }
+ },
+ "fallback_villages": 0
+}

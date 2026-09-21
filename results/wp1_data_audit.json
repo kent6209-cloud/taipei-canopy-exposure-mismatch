@@ -1,0 +1,153 @@
+{
+ "source": "E:\\SCI\\TPC\\tree\\TaipeiTree.csv",
+ "boundary": "E:\\GeoAI\\鄉(鎮、市、區)界線1140318\\TOWN_MOI_1140318.shp",
+ "dem": "E:\\SCI\\TPC\\TPCityDem\\TPCityDem5m.tif",
+ "freeze_note": "evidence freeze 2026-09-19; single authoritative table",
+ "waterfall": {
+  "raw_rows": 92777,
+  "minus_height_invalid": 70,
+  "height_valid": 92707,
+  "minus_diameter_invalid": 30,
+  "height_and_diameter_valid": 92677,
+  "minus_outside_taipei": 51,
+  "analysis_ready": 92626
+ },
+ "reconciliation_of_known_counts": {
+  "92,777": "原始 CSV 列數（未過濾）",
+  "92,707": "0 < 樹高 ≤ 60 m",
+  "92,677": "0 < 樹高 ≤ 60 m 且 0 < 胸徑 ≤ 500 cm",
+  "92,662": "高程帶掃描規則：0 < 樹高 ≤ 60 m 且落在臺北 DEM 網格範圍（未篩胸徑）",
+  "92,626": "本表分析用 analysis_ready：樹高、胸徑有效且落在臺北市界內"
+ },
+ "checks": {
+  "height_min_max": [
+   0.0,
+   60.0
+  ],
+  "diameter_min_max": [
+   0.0,
+   500.0
+  ],
+  "duplicate_tree_ids": 0,
+  "species_total": 284,
+  "species_blank_rows": 17,
+  "flat_share_analysis_ready_pct": 94.62,
+  "flat_share_elevscan_rule_pct": 94.62
+ },
+ "district_counts_raw": {
+  "中山區": 9199,
+  "中正區": 6549,
+  "信義區": 7623,
+  "內湖區": 7543,
+  "北投區": 11674,
+  "南港區": 6388,
+  "士林區": 10437,
+  "大同區": 3291,
+  "大安區": 14350,
+  "文山區": 4483,
+  "松山區": 7968,
+  "萬華區": 3272
+ },
+ "district_counts_analysis_ready": {
+  "中山區": 9198,
+  "中正區": 6549,
+  "信義區": 7621,
+  "內湖區": 7540,
+  "北投區": 11654,
+  "南港區": 6343,
+  "士林區": 10415,
+  "大同區": 3290,
+  "大安區": 14324,
+  "文山區": 4465,
+  "松山區": 7966,
+  "萬華區": 3261
+ },
+ "elevation_band_counts_analysis_ready": {
+  "丘陵近山": 3971,
+  "山地": 293,
+  "淺山": 715,
+  "都市平地": 87647
+ },
+ "variables": [
+  {
+   "name": "TreeID",
+   "type": "str",
+   "definition": "行道樹普查樹籍編號（唯一鍵）"
+  },
+  {
+   "name": "Dist",
+   "type": "str",
+   "definition": "行政區"
+  },
+  {
+   "name": "Region",
+   "type": "str",
+   "definition": "路段／綠地別"
+  },
+  {
+   "name": "RegionRemark",
+   "type": "str",
+   "definition": "路段備註"
+  },
+  {
+   "name": "TreeType",
+   "type": "str",
+   "definition": "樹種"
+  },
+  {
+   "name": "Diameter_cm",
+   "type": "float",
+   "definition": "胸徑（公分）"
+  },
+  {
+   "name": "TreeHeight_m",
+   "type": "float",
+   "definition": "樹高（公尺）"
+  },
+  {
+   "name": "SurveyDate",
+   "type": "str",
+   "definition": "普查日期"
+  },
+  {
+   "name": "TWD97X",
+   "type": "float",
+   "definition": "X 座標（EPSG:3826）"
+  },
+  {
+   "name": "TWD97Y",
+   "type": "float",
+   "definition": "Y 座標（EPSG:3826）"
+  },
+  {
+   "name": "elev_m",
+   "type": "float",
+   "definition": "DEM 取樣高程（公尺）"
+  },
+  {
+   "name": "elev_band",
+   "type": "str",
+   "definition": "高程分區"
+  },
+  {
+   "name": "height_valid",
+   "type": "bool",
+   "definition": "0.0 < 樹高 ≤ 60.0 m"
+  },
+  {
+   "name": "diameter_valid",
+   "type": "bool",
+   "definition": "0.0 < 胸徑 ≤ 500.0 cm"
+  },
+  {
+   "name": "within_taipei",
+   "type": "bool",
+   "definition": "座標落在臺北市行政區界內（EPSG:3826）"
+  },
+  {
+   "name": "analysis_ready",
+   "type": "bool",
+   "definition": "上述三項皆為真，可用於空間分析"
+  }
+ ]
+}

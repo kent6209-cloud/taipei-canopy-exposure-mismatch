@@ -1,0 +1,262 @@
+{
+ "A6_street_trees": {
+  "top8_species": [
+   "榕樹",
+   "茄苳",
+   "樟樹",
+   "楓香",
+   "臺灣欒樹",
+   "白千層",
+   "黑板樹",
+   "小葉欖仁"
+  ],
+  "by_band": [
+   {
+    "band": "都市平地 0–20 m",
+    "n_trees": 87647,
+    "n_species": 275,
+    "top_species_pct": {
+     "榕樹": 11.8,
+     "茄苳": 11.4,
+     "樟樹": 9.5,
+     "楓香": 7.9,
+     "臺灣欒樹": 7.2,
+     "白千層": 4.8,
+     "黑板樹": 4.3,
+     "小葉欖仁": 3.2
+    },
+    "dbh_n": 87647,
+    "dbh_median_cm": 24.0,
+    "dbh_p25_cm": 12.3,
+    "dbh_p75_cm": 35.3,
+    "dbh_mean_cm": 25.8
+   },
+   {
+    "band": "丘陵近山 20–100 m",
+    "n_trees": 3971,
+    "n_species": 139,
+    "top_species_pct": {
+     "榕樹": 7.6,
+     "茄苳": 3.7,
+     "樟樹": 5.8,
+     "楓香": 7.3,
+     "臺灣欒樹": 9.0,
+     "白千層": 7.3,
+     "黑板樹": 10.2,
+     "小葉欖仁": 1.4
+    },
+    "dbh_n": 3971,
+    "dbh_median_cm": 20.0,
+    "dbh_p25_cm": 6.9,
+    "dbh_p75_cm": 34.0,
+    "dbh_mean_cm": 23.7
+   },
+   {
+    "band": "淺山 100–300 m",
+    "n_trees": 715,
+    "n_species": 40,
+    "top_species_pct": {
+     "榕樹": 14.8,
+     "茄苳": 1.8,
+     "樟樹": 0.7,
+     "楓香": 44.5,
+     "臺灣欒樹": 5.5,
+     "白千層": 7.1,
+     "黑板樹": 0.0,
+     "小葉欖仁": 0.0
+    },
+    "dbh_n": 715,
+    "dbh_median_cm": 27.8,
+    "dbh_p25_cm": 17.2,
+    "dbh_p75_cm": 37.6,
+    "dbh_mean_cm": 30.3
+   },
+   {
+    "band": "山地 300–600 m",
+    "n_trees": 293,
+    "n_species": 11,
+    "top_species_pct": {
+     "榕樹": 49.8,
+     "茄苳": 1.0,
+     "樟樹": 0.0,
+     "楓香": 43.0,
+     "臺灣欒樹": 0.0,
+     "白千層": 0.0,
+     "黑板樹": 0.0,
+     "小葉欖仁": 0.0
+    },
+    "dbh_n": 293,
+    "dbh_median_cm": 53.0,
+    "dbh_p25_cm": 41.5,
+    "dbh_p75_cm": 64.0,
+    "dbh_mean_cm": 53.1
+   }
+  ],
+  "overall_species": {
+   "榕樹": 10938,
+   "茄苳": 10184,
+   "樟樹": 8533,
+   "楓香": 7685,
+   "臺灣欒樹": 6670,
+   "白千層": 4586,
+   "黑板樹": 4194,
+   "小葉欖仁": 2825,
+   "大花紫薇": 2317,
+   "水黃皮": 2091,
+   "大王椰子": 1841,
+   "木棉": 1837
+  },
+  "overall_richness": 284
+ },
+ "A8_district_canopy": [
+  {
+   "district": "士林區",
+   "n_cells": 619202,
+   "area_ha": 6192.0,
+   "canopy_ha": 3966.3,
+   "cover_pct": 64.06,
+   "mean_h_all_m": 6.3,
+   "mean_h_canopy_m": 9.83,
+   "median_h_canopy_m": 10.0,
+   "p90_h_canopy_m": 17,
+   "sigmaH_m_ha": 39003.2
+  },
+  {
+   "district": "南港區",
+   "n_cells": 219012,
+   "area_ha": 2190.1,
+   "canopy_ha": 1355.9,
+   "cover_pct": 61.91,
+   "mean_h_all_m": 5.66,
+   "mean_h_canopy_m": 9.14,
+   "median_h_canopy_m": 9.0,
+   "p90_h_canopy_m": 16,
+   "sigmaH_m_ha": 12396.6
+  },
+  {
+   "district": "內湖區",
+   "n_cells": 319155,
+   "area_ha": 3191.6,
+   "canopy_ha": 1894.2,
+   "cover_pct": 59.35,
+   "mean_h_all_m": 5.32,
+   "mean_h_canopy_m": 8.96,
+   "median_h_canopy_m": 9.0,
+   "p90_h_canopy_m": 14,
+   "sigmaH_m_ha": 16981.5
+  },
+  {
+   "district": "文山區",
+   "n_cells": 311694,
+   "area_ha": 3116.9,
+   "canopy_ha": 1809.7,
+   "cover_pct": 58.06,
+   "mean_h_all_m": 5.26,
+   "mean_h_canopy_m": 9.05,
+   "median_h_canopy_m": 9.0,
+   "p90_h_canopy_m": 16,
+   "sigmaH_m_ha": 16382.9
+  },
+  {
+   "district": "北投區",
+   "n_cells": 575615,
+   "area_ha": 5756.2,
+   "canopy_ha": 3252.7,
+   "cover_pct": 56.51,
+   "mean_h_all_m": 5.35,
+   "mean_h_canopy_m": 9.47,
+   "median_h_canopy_m": 9.0,
+   "p90_h_canopy_m": 17,
+   "sigmaH_m_ha": 30810.6
+  },
+  {
+   "district": "信義區",
+   "n_cells": 112370,
+   "area_ha": 1123.7,
+   "canopy_ha": 491.4,
+   "cover_pct": 43.73,
+   "mean_h_all_m": 4.38,
+   "mean_h_canopy_m": 10.01,
+   "median_h_canopy_m": 10.0,
+   "p90_h_canopy_m": 17,
+   "sigmaH_m_ha": 4916.9
+  },
+  {
+   "district": "大安區",
+   "n_cells": 113199,
+   "area_ha": 1132.0,
+   "canopy_ha": 310.6,
+   "cover_pct": 27.44,
+   "mean_h_all_m": 2.23,
+   "mean_h_canopy_m": 8.14,
+   "median_h_canopy_m": 8.0,
+   "p90_h_canopy_m": 15,
+   "sigmaH_m_ha": 2529.2
+  },
+  {
+   "district": "中山區",
+   "n_cells": 140357,
+   "area_ha": 1403.6,
+   "canopy_ha": 346.4,
+   "cover_pct": 24.68,
+   "mean_h_all_m": 1.77,
+   "mean_h_canopy_m": 7.16,
+   "median_h_canopy_m": 7.0,
+   "p90_h_canopy_m": 12,
+   "sigmaH_m_ha": 2479.6
+  },
+  {
+   "district": "中正區",
+   "n_cells": 74187,
+   "area_ha": 741.9,
+   "canopy_ha": 148.5,
+   "cover_pct": 20.02,
+   "mean_h_all_m": 1.34,
+   "mean_h_canopy_m": 6.69,
+   "median_h_canopy_m": 6.0,
+   "p90_h_canopy_m": 12,
+   "sigmaH_m_ha": 993.1
+  },
+  {
+   "district": "萬華區",
+   "n_cells": 74416,
+   "area_ha": 744.2,
+   "canopy_ha": 95.2,
+   "cover_pct": 12.79,
+   "mean_h_all_m": 0.7,
+   "mean_h_canopy_m": 5.46,
+   "median_h_canopy_m": 5.0,
+   "p90_h_canopy_m": 11,
+   "sigmaH_m_ha": 519.6
+  },
+  {
+   "district": "大同區",
+   "n_cells": 47761,
+   "area_ha": 477.6,
+   "canopy_ha": 50.6,
+   "cover_pct": 10.6,
+   "mean_h_all_m": 0.61,
+   "mean_h_canopy_m": 5.74,
+   "median_h_canopy_m": 5.0,
+   "p90_h_canopy_m": 11,
+   "sigmaH_m_ha": 290.9
+  },
+  {
+   "district": "松山區",
+   "n_cells": 86533,
+   "area_ha": 865.3,
+   "canopy_ha": 86.7,
+   "cover_pct": 10.02,
+   "mean_h_all_m": 0.59,
+   "mean_h_canopy_m": 5.85,
+   "median_h_canopy_m": 5.0,
+   "p90_h_canopy_m": 11,
+   "sigmaH_m_ha": 507.6
+  }
+ ],
+ "meta": {
+  "tree_source": "taipei_trees_authoritative.csv",
+  "grid": "10 m EPSG:3826・GRA_NearestNeighbour・DEM∩CHM",
+  "note": "行道樹為人工普查值；A8 為本專案 CHM 管線重算（非外部專案數值）。"
+ }
+}

@@ -1,0 +1,21 @@
+# 原始資料與大檔（不典藏；請自公開來源取得）
+county/
+townships/
+tiles/
+*.tif
+*.zip
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+data_civil/*.ods
+data_civil/*.xlsx
+Paper/
+20260817/
+20260903/
+2026*/
+.playwright-mcp/
+__pycache__/
+*.pyc

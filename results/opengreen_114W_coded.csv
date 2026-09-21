@@ -1,0 +1,14 @@
+﻿year,region,case_name,district,village,site_address,proposing_unit,investment_type,layer,main_benefit,maintenance_years,verifiability,lon,lat,geo_level,coding_confidence,source_report
+2025,W,文林社區樸門綠生活2.0,北投區,文林里,,臺北市北投區文林里辦公處、臺北市北投區文林社區發展協會,建置;共同規劃;維護,3;4,adaptation;nature;social,,中,121.51784,25.1482,district-centroid (approx.),"inferred (待複核); 核定經費 250,000",114W
+2025,W,城市綠洲計畫-百間厝文化藝術公園,中正區,,,臺北市中正區新營共好社區發展協會,建置;共同規劃,3;4,adaptation;social,,中,121.51986,25.03245,district-centroid (approx.),"inferred (待複核); 核定經費 250,000",114W
+2025,W,食農小亭園,,騰雲里,,財團法人海棠文教基金會、騰雲里里辦公室,建置;共同規劃,3;4,social;nature,,中,,,,"inferred (待複核); 核定經費 250,000",114W
+2025,W,OPEN 北投101,北投區,,,臺北市北投社區大學（財團法人台北市北投文化基金會）,共同規劃;建置,3;4,adaptation;social,,中,121.51784,25.1482,district-centroid (approx.),inferred (待複核); 經費待確認,114W
+2025,W,朝陽造起來,,,,朝陽里辦公處、親糸制藝所,共同規劃,3;4,social,,中,,,,inferred (待複核); 整備組,114W
+2025,W,我愛石牌社區樸門綠一下－照顧地球、照顧人、分享多餘,北投區,石牌里,,臺北市北投區石牌里辦公處、臺北市北投區我愛石牌社區發展協會,共同規劃,3;4,nature;social,,中,121.51784,25.1482,district-centroid (approx.),inferred (待複核); 整備組,114W
+2025,W,五常綠生活,,,,五常國中,共同規劃,3;4,social;nature,,中,,,,inferred (待複核); 整備組,114W
+2025,W,頂碩里四個小朋友公園,,頂碩里,,頂碩里辦公處,共同規劃,3;4,social,,中,,,,inferred (待複核); 整備組,114W
+2025,W,綠色健康家居由廚餘養耕循環開始,,,,都市蚓農企業社,共同規劃,3;4,nature;social,,中,,,,inferred (待複核); 整備組,114W
+2025,W,有機綠生活-廚餘助益,,,,蕃薯藤有限公司,共同規劃,3;4,nature;social,,中,,,,inferred (待複核); 整備組,114W
+2025,W,建民社區全齡綠化環保行動,北投區,建民里,文林北路130號,建民里辦公處,共同規劃,3;4,adaptation;social,,中,121.51784,25.1482,district-centroid (approx.),inferred (待複核); 整備組,114W
+2025,W,崁頂探險：尋找社區黃金點,,永昌里,,臺北市中正社區大學、永昌里辦公處、新永昌社區發展協會、荒野保護協會、南海藝工作室,共同規劃,3;4,social;nature,,中,,,,inferred (待複核); 整備組,114W
+2025,W,心橋薪橋平樂天橋,,,,財團法人台北市至善堂,共同規劃,3;4,social,,中,,,,inferred (待複核); 整備組,114W

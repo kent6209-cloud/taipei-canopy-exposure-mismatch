@@ -1,0 +1,173 @@
+{
+ "meta": {
+  "grid_res_m": 100.0,
+  "window_m": 1100.0,
+  "sai_weights": {
+   "green": 0.4,
+   "canopy": 0.4,
+   "tree": 0.2
+  },
+  "cap_canopy_m": 10.73,
+  "cap_tree_per_ha": 13.0,
+  "population_source": "WorldPop-derived pop_taipei_2026.tif (relative density)",
+  "population_note": "population used as a relative density weight, not an absolute count",
+  "valid_cells": 27652
+ },
+ "p1_test": {
+  "all_cells": {
+   "n": 27652,
+   "pearson_canopy_vs_sai": 0.736,
+   "spearman_canopy_vs_sai": 0.781,
+   "pearson_canopy_vs_sai_no_canopy": 0.453
+  },
+  "residential_cells": {
+   "n": 23342,
+   "pearson_canopy_vs_pop": -0.455,
+   "spearman_canopy_vs_pop": -0.529,
+   "pearson_sai_vs_pop": -0.491,
+   "spearman_sai_vs_pop": -0.599
+  },
+  "population_weighted": {
+   "sai_mean": 29.49,
+   "sai_area_weighted": 43.06,
+   "canopy_m_mean": 1.32,
+   "canopy_area_weighted_m": 3.96
+  },
+  "band_contrast": {
+   "sai_flat": 26.34,
+   "sai_near_mountain": 52.07,
+   "canopy_flat_m": 0.88,
+   "canopy_near_mountain_m": 6.43
+  }
+ },
+ "by_elevation_band": {
+  "丘陵近山": {
+   "n_cells": 4558,
+   "sai_mean": 52.07,
+   "canopy_h_mean_m": 6.43,
+   "green_ratio_mean": 0.758,
+   "tree_per_ha": 1.0
+  },
+  "中高山": {
+   "n_cells": 2435,
+   "sai_mean": 65.29,
+   "canopy_h_mean_m": 7.19,
+   "green_ratio_mean": 0.935,
+   "tree_per_ha": 0.0
+  },
+  "山地": {
+   "n_cells": 4150,
+   "sai_mean": 67.93,
+   "canopy_h_mean_m": 9.03,
+   "green_ratio_mean": 0.886,
+   "tree_per_ha": 0.1
+  },
+  "淺山": {
+   "n_cells": 4602,
+   "sai_mean": 64.12,
+   "canopy_h_mean_m": 7.83,
+   "green_ratio_mean": 0.914,
+   "tree_per_ha": 0.2
+  },
+  "都市平地": {
+   "n_cells": 11907,
+   "sai_mean": 26.34,
+   "canopy_h_mean_m": 0.88,
+   "green_ratio_mean": 0.252,
+   "tree_per_ha": 7.3
+  }
+ },
+ "by_district": {
+  "中山區": {
+   "n_cells": 1400,
+   "sai_mean": 28.68,
+   "canopy_h_mean_m": 1.77,
+   "green_ratio_mean": 0.3,
+   "tree_per_ha": 7.0
+  },
+  "中正區": {
+   "n_cells": 745,
+   "sai_mean": 28.36,
+   "canopy_h_mean_m": 1.33,
+   "green_ratio_mean": 0.251,
+   "tree_per_ha": 8.8
+  },
+  "信義區": {
+   "n_cells": 1120,
+   "sai_mean": 42.93,
+   "canopy_h_mean_m": 4.36,
+   "green_ratio_mean": 0.475,
+   "tree_per_ha": 6.6
+  },
+  "內湖區": {
+   "n_cells": 3192,
+   "sai_mean": 49.97,
+   "canopy_h_mean_m": 5.33,
+   "green_ratio_mean": 0.667,
+   "tree_per_ha": 2.3
+  },
+  "北投區": {
+   "n_cells": 5780,
+   "sai_mean": 54.24,
+   "canopy_h_mean_m": 5.35,
+   "green_ratio_mean": 0.801,
+   "tree_per_ha": 2.0
+  },
+  "南港區": {
+   "n_cells": 2195,
+   "sai_mean": 54.78,
+   "canopy_h_mean_m": 5.62,
+   "green_ratio_mean": 0.761,
+   "tree_per_ha": 2.9
+  },
+  "士林區": {
+   "n_cells": 6193,
+   "sai_mean": 52.55,
+   "canopy_h_mean_m": 6.3,
+   "green_ratio_mean": 0.684,
+   "tree_per_ha": 1.7
+  },
+  "大同區": {
+   "n_cells": 479,
+   "sai_mean": 19.73,
+   "canopy_h_mean_m": 0.61,
+   "green_ratio_mean": 0.187,
+   "tree_per_ha": 6.3
+  },
+  "大安區": {
+   "n_cells": 1132,
+   "sai_mean": 36.75,
+   "canopy_h_mean_m": 2.23,
+   "green_ratio_mean": 0.35,
+   "tree_per_ha": 12.8
+  },
+  "文山區": {
+   "n_cells": 3128,
+   "sai_mean": 48.74,
+   "canopy_h_mean_m": 5.26,
+   "green_ratio_mean": 0.676,
+   "tree_per_ha": 1.4
+  },
+  "未匹配": {
+   "n_cells": 673,
+   "sai_mean": 44.02,
+   "canopy_h_mean_m": 4.33,
+   "green_ratio_mean": 0.123,
+   "tree_per_ha": 0.1
+  },
+  "松山區": {
+   "n_cells": 868,
+   "sai_mean": 17.21,
+   "canopy_h_mean_m": 0.59,
+   "green_ratio_mean": 0.045,
+   "tree_per_ha": 9.1
+  },
+  "萬華區": {
+   "n_cells": 747,
+   "sai_mean": 14.49,
+   "canopy_h_mean_m": 0.71,
+   "green_ratio_mean": 0.12,
+   "tree_per_ha": 4.5
+  }
+ }
+}

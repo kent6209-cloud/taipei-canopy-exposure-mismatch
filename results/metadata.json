@@ -1,0 +1,37 @@
+{
+  "source": "臺北市政府民政局　統計資料　臺北市每月各里人口數及戶數",
+  "page": "https://ca.gov.taipei/News_Content.aspx?n=8693DC9620A1AABF&sms=D19E9582624D83CB&s=6F385E21D02AAFD5",
+  "retrieved": "2026-09-20",
+  "files": {
+    "pop_115.ods": {
+      "label": "115年1-12月各里人口數戶數",
+      "bytes": 242509,
+      "url": "https://www-ws.gov.taipei/001/Upload/334/relfile/16121/2550837/22da1ed9-a8c9-4db5-ab07-b1a740e64e9e.ods"
+    },
+    "pop_114.ods": {
+      "label": "114年1-12月各里人口數戶數",
+      "bytes": 332893,
+      "url": "https://www-ws.gov.taipei/001/Upload/334/relfile/16121/2550837/5dca11c0-be43-4416-acc7-f36888104e1b.ods"
+    },
+    "pop_113.ods": {
+      "label": "113年1-12月各里人口數戶數",
+      "bytes": 333259,
+      "url": "https://www-ws.gov.taipei/001/Upload/334/relfile/16121/2550837/7dae3123-dc35-406a-9347-ff5ea08e73b6.ods"
+    }
+  },
+  "columns": ["行政區", "里別/區域別", "村里數_現有門牌", "村里數_戶籍登記", "鄰數_現有門牌", "鄰數_戶籍登記", "戶數", "人口數-合計", "人口數-男", "人口數-女"],
+  "structure": "每月一張工作表：標題列、表頭、總計列、12 區小計列（里別=區名）與其下各里列",
+  "note": "115 年 9-12 月為空白模板；最新資料月依檔案更新日（115-09-02）為 115 年 8 月。",
+  "use": "需求側權重（戶籍人口）之穩健性檢核，對照 WorldPop 模型密度；戶籍≠常住/日夜間人口。",
+  "village_boundary": {
+    "authoritative": "E:\\SCI\\TPC\\臺北市里界圖_20260623\\G97_A_CAVLGE_P.shp",
+    "authoritative_note": "臺北市政府都市發展局；456 里、EPSG:3826、與區界 G97_A_CADIST_P 同系列；與人口檔 1:1 對名（唯一差異為異體字「糖廍里」U+5ECD / 界圖 U+8500，已於程式中 alias）。",
+    "cross_check_only": "VILLAGE_MOI_121.zip + village_121\\（內政部國土測繪中心 1150817 版村里界）",
+    "cross_check_note": "僅作交叉檢核：臺北市 456 里、455/456 名稱一致（差異同為糖廍里異體字）；未用於正式計算。"
+  },
+  "outputs": {
+    "taipei_village_pop_monthly.csv": "逐月逐里（year, month, district, village, households, pop_total, pop_m, pop_f）",
+    "wp2_pop_village.json": "解析摘要與三層校驗（總計＝Σ區小計＝Σ里）：32 個月、0 失敗",
+    "pop_weight_robustness.csv": "W1/W2/W3 權重之穩健性指標（表 5.7）"
+  }
+}

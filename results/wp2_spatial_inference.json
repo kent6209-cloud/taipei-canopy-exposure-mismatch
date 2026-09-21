@@ -1,0 +1,44 @@
+{
+ "meta": {
+  "n_residential_cells": 23342,
+  "block_cells": 5,
+  "block_m": 500,
+  "n_boot": 1000,
+  "n_perm": 999,
+  "note": "block bootstrap/permutation respect spatial dependence; use these INSTEAD of naive p-values"
+ },
+ "canopy_vs_pop": {
+  "rho_cell": -0.529,
+  "block_bootstrap_ci95": [
+   -0.564,
+   -0.491
+  ],
+  "n_blocks": 1116,
+  "rho_block": -0.562,
+  "block_permutation_p": 0.001,
+  "perm_ci95": [
+   -0.058,
+   0.057
+  ],
+  "effective_n": 1925
+ },
+ "sai_vs_pop": {
+  "rho_cell": -0.599,
+  "block_bootstrap_ci95": [
+   -0.635,
+   -0.559
+  ],
+  "n_blocks": 1116,
+  "rho_block": -0.649,
+  "block_permutation_p": 0.001,
+  "perm_ci95": [
+   -0.059,
+   0.055
+  ],
+  "effective_n": 46
+ },
+ "lag1_autocorr": {
+  "canopy": 0.848,
+  "sai": 0.996
+ }
+}

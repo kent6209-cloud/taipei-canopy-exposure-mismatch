@@ -1,0 +1,93 @@
+{
+ "meta": {
+  "source": "E:\\GeoAI\\20260909_taiwan_chmv2\\county\\臺北市.tif（CHMv2 原生 1.19 m、EPSG:3857）",
+  "cutline": "臺北市 12 區（TOWN_MOI_1140318）",
+  "definition": "樹冠＝CHM > 0；ΣH＝Σ(樹冠高 × 面積)，單位 m·ha",
+  "note": "10/30/100 m 為『格內平均高 > 0 即整格計入』之慣例（與表 5.1 一致）；原生解析度則以像元為單位。兩者之差反映**門檻效應**（部分樹冠格之整格計入）而非真實樹冠變化。"
+ },
+ "by_resolution": [
+  {
+   "resolution_m": 10.0,
+   "n_valid_cells": 2702332,
+   "n_canopy_cells": 1554660,
+   "valid_ha": 27023.3,
+   "canopy_ha": 15546.6,
+   "cover_pct": 57.53,
+   "sigmaH_m_ha": 127952.0,
+   "cos2_correction": 1.0,
+   "crs": "EPSG:3826",
+   "sampling": "GRA_Average（格內平均高 > 0 即計入）"
+  },
+  {
+   "resolution_m": 30.0,
+   "n_valid_cells": 301807,
+   "n_canopy_cells": 195952,
+   "valid_ha": 27162.6,
+   "canopy_ha": 17635.7,
+   "cover_pct": 64.93,
+   "sigmaH_m_ha": 128335.7,
+   "cos2_correction": 1.0,
+   "crs": "EPSG:3826",
+   "sampling": "GRA_Average（格內平均高 > 0 即計入）",
+   "canopy_pct_of_10m": 113.4,
+   "sigmaH_pct_of_10m": 100.3
+  },
+  {
+   "resolution_m": 100.0,
+   "n_valid_cells": 27633,
+   "n_canopy_cells": 20479,
+   "valid_ha": 27633.0,
+   "canopy_ha": 20479.0,
+   "cover_pct": 74.11,
+   "sigmaH_m_ha": 130263.0,
+   "cos2_correction": 1.0,
+   "crs": "EPSG:3826",
+   "sampling": "GRA_Average（格內平均高 > 0 即計入）",
+   "canopy_pct_of_10m": 131.7,
+   "sigmaH_pct_of_10m": 101.8
+  },
+  {
+   "resolution_m": 10.0,
+   "n_valid_cells": 2694100,
+   "n_canopy_cells": 1381134,
+   "valid_ha": 26941.0,
+   "canopy_ha": 13811.3,
+   "cover_pct": 51.27,
+   "sigmaH_m_ha": 127840.2,
+   "cos2_correction": 1.0,
+   "crs": "EPSG:3826",
+   "sampling": "GRA_NearestNeighbour（主分析採用，與表 5.1 一致）",
+   "canopy_pct_of_10m": 88.8,
+   "sigmaH_pct_of_10m": 99.9
+  },
+  {
+   "resolution_m": 1.1943,
+   "n_valid_cells": 231648776,
+   "n_canopy_cells": 119199684,
+   "valid_ha": 27117.8,
+   "canopy_ha": 13954.0,
+   "cover_pct": 51.46,
+   "sigmaH_m_ha": 128586.3,
+   "cos2_correction": 0.8207248157845789,
+   "crs": "EPSG:3857（經 cos²(lat) 校正）",
+   "sampling": "原生像元高 > 0（像元面積）",
+   "canopy_pct_of_10m": 89.8,
+   "sigmaH_pct_of_10m": 100.5
+  },
+  {
+   "resolution_m": 10.0,
+   "crs": "EPSG:3826",
+   "sampling": "GRA_Average（格內平均高 > 0 即計入）",
+   "mask": "DEM ∩ CHM（主分析用有效域）",
+   "n_valid_cells": 2701612,
+   "n_canopy_cells": 1554297,
+   "valid_ha": 27016.1,
+   "canopy_ha": 15543.0,
+   "cover_pct": 57.53,
+   "sigmaH_m_ha": 127921.4,
+   "cos2_correction": 1.0,
+   "canopy_pct_of_10m": 100.0,
+   "sigmaH_pct_of_10m": 100.0
+  }
+ ]
+}

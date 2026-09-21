@@ -1,0 +1,4 @@
+﻿weight,pop_total_in_cells,area_weighted_SAI,pop_weighted_SAI,pop_weighted_canopy_m,spearman_SAI_vs_pop,spearman_canopy_vs_pop,pop_share_in_deficit_pct
+W1_worldpop,1934931.1,43.06,29.49,1.319,-0.599,-0.529,84.87
+W2_village_x_worldpop,2421830.0,43.18,27.71,1.103,-0.642,-0.556,82.61
+W3_village_uniform,2421830.0,46.74,29.2,1.788,-0.707,-0.525,67.2

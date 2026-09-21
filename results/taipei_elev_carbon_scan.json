@@ -1,0 +1,97 @@
+{
+ "grid_res_m": 10.0,
+ "bands": {
+  "都市平地": {
+   "elev_min": 0.0,
+   "elev_max": 20.0,
+   "valid_ha": 11874.93,
+   "canopy_ha": 1837.75,
+   "cover_pct": 15.48,
+   "mean_h": 5.73,
+   "p90_h": 11,
+   "max_h": 25,
+   "height_sum_m_ha": 10522.3,
+   "height_sum_share_pct": 8.23
+  },
+  "丘陵近山": {
+   "elev_min": 20.0,
+   "elev_max": 100.0,
+   "valid_ha": 4258.98,
+   "canopy_ha": 3063.45,
+   "cover_pct": 71.93,
+   "mean_h": 9.32,
+   "p90_h": 16,
+   "max_h": 34,
+   "height_sum_m_ha": 28564.9,
+   "height_sum_share_pct": 22.35
+  },
+  "淺山": {
+   "elev_min": 100.0,
+   "elev_max": 300.0,
+   "valid_ha": 4478.0,
+   "canopy_ha": 3766.06,
+   "cover_pct": 84.1,
+   "mean_h": 9.4,
+   "p90_h": 16,
+   "max_h": 36,
+   "height_sum_m_ha": 35393.4,
+   "height_sum_share_pct": 27.7
+  },
+  "山地": {
+   "elev_min": 300.0,
+   "elev_max": 600.0,
+   "valid_ha": 4010.37,
+   "canopy_ha": 3465.44,
+   "cover_pct": 86.41,
+   "mean_h": 10.45,
+   "p90_h": 17,
+   "max_h": 37,
+   "height_sum_m_ha": 36202.8,
+   "height_sum_share_pct": 28.33
+  },
+  "中高山": {
+   "elev_min": 600.0,
+   "elev_max": 1000000000.0,
+   "valid_ha": 2310.5,
+   "canopy_ha": 1672.66,
+   "cover_pct": 72.39,
+   "mean_h": 10.22,
+   "p90_h": 17,
+   "max_h": 34,
+   "height_sum_m_ha": 17095.9,
+   "height_sum_share_pct": 13.38
+  }
+ },
+ "meta": {
+  "total_height_sum_m_ha": 127779.3,
+  "total_canopy_ha": 13805.36
+ },
+ "trees": {
+  "都市平地": {
+   "count": 87903,
+   "mean_h": 9.34,
+   "median_h": 9.1
+  },
+  "丘陵近山": {
+   "count": 3752,
+   "mean_h": 9.07,
+   "median_h": 8.7
+  },
+  "淺山": {
+   "count": 714,
+   "mean_h": 7.67,
+   "median_h": 7.7
+  },
+  "山地": {
+   "count": 293,
+   "mean_h": 12.89,
+   "median_h": 12.9
+  },
+  "中高山": {
+   "count": 0,
+   "mean_h": null,
+   "median_h": null
+  },
+  "_outside_dem": 0
+ }
+}
