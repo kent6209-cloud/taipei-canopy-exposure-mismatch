@@ -123,32 +123,42 @@ four-ledger accounting, governance extension
     refs = """## 參考文獻
 
 1. 臺北市政府環境保護局. 《臺北市第二期溫室氣體減量執行方案 113 年成果報告》；臺北市政府：臺北，臺灣，2025.
-2. Nowak, D.J.; Crane, D.E. Carbon Storage and Sequestration by Urban Trees in the USA. *Environmental Pollution* **2002**, *116*, 381–389.
-3. Nowak, D.J.; Greenfield, E.J.; Hoehn, R.E.; Lapoint, E. Carbon Storage and Sequestration by Trees in Urban and Community Areas of the United States. *Environmental Pollution* **2013**, *178*, 229–236.
-4. Schendl, M.; James, P. Beyond Proximity: Greenspace Accessibility in the x-Minute City. *People and Nature* **2025**, *7*, e70081.
-5. Song, X.-P.; Lai, K.Y.; Tan, P.Y.; Tan, H.T.W. Contrasting Inequality in Human Exposure to Greenspace between Cities of Global North and Global South. *Nature Communications* **2022**, *13*, 4453.
-6. Song, X.-P.; Tan, P.Y.; Edwards, P.; Richards, D. Global Inequities in Population Exposure to Urban Greenspaces Increased over the Last Two Decades. *Communications Earth & Environment* **2023**, *4*, 435.
-7. Zhao, Y.; Song, X.-P.; Chen, B. Greening Dominates Greenspace Exposure Inequality in Chinese Cities. *npj Urban Sustainability* **2025**, *5*, 12.
+2. Nowak, D.J.; Crane, D.E. Carbon Storage and Sequestration by Urban Trees in the USA. *Environmental Pollution* **2002**, *116*, 381–389. https://doi.org/10.1016/S0269-7491(01)00214-7
+3. Nowak, D.J.; Greenfield, E.J.; Hoehn, R.E.; Lapoint, E. Carbon Storage and Sequestration by Trees in Urban and Community Areas of the United States. *Environmental Pollution* **2013**, *178*, 229–236. https://doi.org/10.1016/j.envpol.2013.03.019
+4. Schendl, M.; James, P. Beyond Proximity: Greenspace Accessibility in the x-Minute City. *People and Nature* **2025**, *7*, e70081. https://doi.org/10.1002/pan3.70081
+5. Song, X.-P.; Lai, K.Y.; Tan, P.Y.; Tan, H.T.W. Contrasting Inequality in Human Exposure to Greenspace between Cities of Global North and Global South. *Nature Communications* **2022**, *13*, 4453. https://doi.org/10.1038/s41467-022-32258-4
+6. Song, X.-P.; Tan, P.Y.; Edwards, P.; Richards, D. Global Inequities in Population Exposure to Urban Greenspaces Increased over the Last Two Decades. *Communications Earth & Environment* **2023**, *4*, 435. https://doi.org/10.1038/s43247-023-01141-5
+7. Zhao, Y.; Song, X.-P.; Chen, B. Greening Dominates Greenspace Exposure Inequality in Chinese Cities. *npj Urban Sustainability* **2025**, *5*, 12. https://doi.org/10.1038/s42949-025-00253-5
 8. McPherson, E.G.; Xiao, Q.; Aguaron, E. A New Approach to Quantify and Map Carbon Stored, Sequestered and Emissions Avoided by Urban Forests. *Landscape and Urban Planning* **2013**, *120*, 70–84.
-9. Winbourne, J.B.; Jones, T.S.; McNellis, R.E.; Garner, J.H.; Smith, I.A.; Hutyra, L.R. Quantification of Urban Forest and Grassland Carbon Fluxes Using Continuous Automated Chambers. *JGR Biogeosciences* **2022**, *127*, e2021JG006568.
-10. Congressional Research Service. *U.S. Forest Carbon Data: In Brief* (R46313); CRS: Washington, DC, USA, 2023.
-11. Taskforce on Nature-related Financial Disclosures. *Recommendations of the Taskforce on Nature-related Financial Disclosures*; TNFD: London, UK, 2023.
-12. Integrity Council for the Voluntary Carbon Market. *Core Carbon Principles, Assessment Framework and Assessment Procedure*; ICVCM: London, UK, 2024.
-13. Liu, Q.; Wang, Y.; Zhang, Z. Spatial Gradients of Supply and Demand of Ecosystem Services within Cities. *Ecological Indicators* **2023**, *157*, 111263.
-14. Herreros-Cantis, P.; McPhearson, T. Mapping Supply of and Demand for Ecosystem Services to Assess Environmental Justice in New York City. *Ecological Applications* **2021**, *31*, e02390.
-15. Zhong, Z.; Li, Y.; Chen, X. Linear and Non-Linear Dynamics of Ecosystem Services Supply, Demand, and Mismatches. *Ecological Indicators* **2024**, *159*, 111614.
-16. Supianto, A.A.; Nasar, W.; Aspen, D.M.; Hasan, A.; Karlsen, A.S.T.; Torres, R.D.S. An Urban Digital Twin Framework for Reference and Planning. *IEEE Access* **2024**, *12*, 152444–152465.
-17. 臺北市政府. 《臺北市自願檢視報告》（Voluntary Local Review）；臺北市政府：臺北，臺灣，2019–2025.
-18. 臺北市政府. 《臺北市淨零排放管理自治條例》；臺北市政府：臺北，臺灣，2025.
-19. 內政部國土測繪中心. 《鄉（鎮、市、區）界線（114 年 3 月版）》；內政部：臺北，臺灣，2025.
-20. Meta AI; World Resources Institute. *Canopy Height Model v2 (CHMv2)*; Meta AI & WRI: Washington, DC, USA, 2024.
-21. 臺北市政府工務局公園路燈工程管理處. 《臺北市行道樹普查資料》；臺北市政府工務局：臺北，臺灣，2024.
-22. WorldPop. *Taiwan 100 m Population Density Grid 2026*; WorldPop, University of Southampton: Southampton, UK, 2026.
-23. 臺北市政府民政局. 《臺北市每月各里人口數及戶數（113–115 年逐月）》；臺北市政府：臺北，臺灣，2026.
-24. Chave, J.; Réjou-Méchain, M.; Búrquez, A.; Chidumayo, E.; Colgan, M.S.; Delitti, W.B.; Duque, A.; Tiemoko, D. Improved Allometric Models to Estimate the Aboveground Biomass of Tropical Trees. *Global Change Biology* **2014**, *20*, 3177–3190.
-25. 臺北市政府都市發展局. 《臺北市里界圖（115 年 6 月 23 日版）》；臺北市政府：臺北，臺灣，2026.
-26. 臺北市都市更新處. 《Open Green 打開綠生活》年度總結報告（108–114 年）；臺北市都市更新處：臺北，臺灣，2025.
-27. 農業部林業及自然保育署. 《自然碳匯與生物多樣性專案媒合平臺》. https://esg.forest.gov.tw（存取於 2026 年 8 月）.
+9. Winbourne, J.B.; Jones, T.S.; McNellis, R.E.; Garner, J.H.; Smith, I.A.; Hutyra, L.R. Quantification of Urban Forest and Grassland Carbon Fluxes Using Continuous Automated Chambers. *JGR Biogeosciences* **2022**, *127*, e2021JG006568. https://doi.org/10.1029/2021JG006568
+10. Jiang, Z.; Peng, L.; Liang, S. Green Equity after Dark: Spatial Disparities and Influencing Mechanism of Nighttime Accessibility of Urban Green Spaces in Chinese Cities. *Environmental Impact Assessment Review* **2026**, *121*, 108527. https://doi.org/10.1016/j.eiar.2026.108527
+11. Liu, Y.; Du, X.; Yang, W.; Zhang, G. Disparities in Dynamic Green Exposure across Residents' Mobility Patterns: A Case Study in Chengdu. *Urban Forestry & Urban Greening* **2025**, *112*, 128978. https://doi.org/10.1016/j.ufug.2025.128978
+12. Congressional Research Service. *U.S. Forest Carbon Data: In Brief* (R46313); CRS: Washington, DC, USA, 2023.
+13. Taskforce on Nature-related Financial Disclosures. *Recommendations of the Taskforce on Nature-related Financial Disclosures*; TNFD: London, UK, 2023.
+14. Integrity Council for the Voluntary Carbon Market. *Core Carbon Principles, Assessment Framework and Assessment Procedure*; ICVCM: London, UK, 2024.
+15. Liu, Q.; Wang, Y.; Zhang, Z. Spatial Gradients of Supply and Demand of Ecosystem Services within Cities. *Ecological Indicators* **2023**, *157*, 111263. https://doi.org/10.1016/j.ecolind.2023.111263
+16. Herreros-Cantis, P.; McPhearson, T. Mapping Supply of and Demand for Ecosystem Services to Assess Environmental Justice in New York City. *Ecological Applications* **2021**, *31*, e02390. https://doi.org/10.1002/eap.2390
+17. Zhong, Z.; Li, Y.; Chen, X. Linear and Non-Linear Dynamics of Ecosystem Services Supply, Demand, and Mismatches. *Ecological Indicators* **2024**, *159*, 111614. https://doi.org/10.1016/j.ecolind.2024.111614
+18. Supianto, A.A.; Nasar, W.; Aspen, D.M.; Hasan, A.; Karlsen, A.S.T.; Torres, R.D.S. An Urban Digital Twin Framework for Reference and Planning. *IEEE Access* **2024**, *12*, 152444–152465. https://doi.org/10.1109/ACCESS.2024.3478379
+19. 臺北市政府. 《臺北市自願檢視報告》（Voluntary Local Review）；臺北市政府：臺北，臺灣，2019–2025.
+20. 臺北市政府. 《臺北市淨零排放管理自治條例》；臺北市政府：臺北，臺灣，2025.
+21. 內政部國土測繪中心. 《鄉（鎮、市、區）界線（114 年 3 月版）》；內政部：臺北，臺灣，2025.
+22. Meta AI; World Resources Institute. *Canopy Height Model v2 (CHMv2)*; Meta AI & WRI: Washington, DC, USA, 2024.
+23. 臺北市政府工務局公園路燈工程管理處. 《臺北市行道樹普查資料》；臺北市政府工務局：臺北，臺灣，2024.
+24. WorldPop. *Taiwan 100 m Population Density Grid 2026*; WorldPop, University of Southampton: Southampton, UK, 2026.
+25. 臺北市政府民政局. 《臺北市每月各里人口數及戶數（113–115 年逐月）》；臺北市政府：臺北，臺灣，2026.
+26. Chave, J.; Réjou-Méchain, M.; Búrquez, A.; Chidumayo, E.; Colgan, M.S.; Delitti, W.B.; Duque, A.; Tiemoko, D. Improved Allometric Models to Estimate the Aboveground Biomass of Tropical Trees. *Global Change Biology* **2014**, *20*, 3177–3190. https://doi.org/10.1111/gcb.12629
+27. 臺北市政府都市發展局. 《臺北市里界圖（115 年 6 月 23 日版）》；臺北市政府：臺北，臺灣，2026.
+28. 臺北市都市更新處. 《Open Green 打開綠生活》年度總結報告（108–114 年）；臺北市都市更新處：臺北，臺灣，2025.
+29. 農業部林業及自然保育署. 《自然碳匯與生物多樣性專案媒合平臺》. https://esg.forest.gov.tw（存取於 2026 年 8 月）.
+30. Wu, S.; Chen, B.; Webster, C.; Xu, B.; Gong, P. Improved Human Greenspace Exposure Equality during 21st Century Urbanization. *Nature Communications* **2023**, *14*. https://doi.org/10.1038/s41467-023-41620-z
+31. Herber, S.; Mikita, T.; Patočka, Z.; Čížlavská, N. Evaluation of Global and High-Resolution Canopy Height Models for Forest Monitoring and Disturbance Detection: From GEDI Footprint to Deep Learning High-Resolution Mapping. *Remote Sensing* **2026**, *18*, 1851. https://doi.org/10.3390/rs18111851
+32. Yang, K.; Wei, Y.; Li, J.; Li, W. Urban Green Space Inequality and Its Socio-Economic, Geographical, and Climate Determinants in 11,528 Cities. *Environmental Research Letters* **2026**, *21*, 014008. https://doi.org/10.1088/1748-9326/ae2d74
+33. Gillerot, L.; Landuyt, D.; De Frenne, P.; Muys, B.; Verheyen, K. Urban Tree Canopies Drive Human Heat Stress Mitigation. *Urban Forestry & Urban Greening* **2024**, *92*, 128192. https://doi.org/10.1016/j.ufug.2023.128192
+34. Wilkening, J.V.; Feng, X. Canopy Temperature Reveals Disparities in Urban Tree Benefits. *AGU Advances* **2025**, *6*. https://doi.org/10.1029/2024AV001438
+35. Meza-Parra, S.; Arellano-Ramos, B.; Roca-Cladera, J. Beyond Proximity: Uncovering Accessibility Inequities in Barcelona's Climate Shelters Network for the Summer of 2023. *Journal of Urban Mobility* **2026**, *9*, 100175. https://doi.org/10.1016/j.urbmob.2025.100175
+36. Aznarez, C.; Kumar, S.; Marquez-Torres, A.; Pascual, U.; Baró, F. Ecosystem Service Mismatches Evidence Inequalities in Urban Heat Vulnerability. *Science of The Total Environment* **2024**, *922*, 171215. https://doi.org/10.1016/j.scitotenv.2024.171215
+37. Croeser, T.; Rahman, M.A.; Ghosh, A.K. Urban Forestry for Cooler Cities Faces Three Critical Hurdles. *Nature Communications* **2026**, *17*. https://doi.org/10.1038/s41467-026-70723-6
 
 ---
 
@@ -157,6 +167,8 @@ four-ledger accounting, governance extension
 ### 附錄 A　空間資料來源、格式與授權
 
 **表 S1　空間資料來源、原始解析度、座標系與授權彙整表**
+
+*Table S1. Spatial data sources, native resolution, coordinate system and licences.*
 
 | 資料 | 原始解析度 | 座標 | 授權／來源 |
 |---|---|---|---|
@@ -177,6 +189,8 @@ four-ledger accounting, governance extension
 本附錄列出全部分析程式、輸出檔與功能用途（見表 S2）；程式與衍生結果已典藏於 Zenodo（見「Data Availability Statement」）。
 
 **表 S2　可重現程式碼清單、輸出檔與功能用途彙整表**
+
+*Table S2. Reproducible code inventory, outputs and functional purposes.*
 
 | 程式 | 輸出 | 用途 |
 |---|---|---|
@@ -241,6 +255,8 @@ four-ledger accounting, governance extension
 
 **表 S3　論文圖版索引、類型與中英文圖說對照表**
 
+*Table S3. Manuscript figure index, figure types and bilingual caption mapping.*
+
 | 圖號 | 位置 | 類型 | 英文圖說（投稿版） |
 |---|---|---|---|
 | 圖 2-1 | §2.6 | 政策文本描述 | Trend of green-governance keywords in the Taipei Voluntary Local Reviews (2019–2025). |
@@ -270,6 +286,8 @@ four-ledger accounting, governance extension
 
 
 **表 S4　臺北市 12 行政區樹冠結構與全臺 368 鄉鎮市區排名對照表**
+
+*Table S4. Canopy structure of the 12 Taipei districts and their rank among the 368 Taiwanese townships and cities.*
 
 | 區 | 植被偵測比例 | 樹冠像元平均高 (m) | 全臺排名／368 | 百分位 |
 |---|---:|---:|---:|---:|
@@ -306,6 +324,8 @@ four-ledger accounting, governance extension
 
 
 **表 S5　全臺 22 縣市樹冠結構鄉鎮加總與縣市直算交叉檢核表**
+
+*Table S5. County-level canopy structure: township aggregation versus direct county computation.*
 
 | 縣市 | 鄉鎮數 | 面積 (ha) | 植被偵測比例 | 樹冠比例 (≥2 m) | 樹冠平均高 (m) | 縣市直算 | 差異 (pp) |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -351,6 +371,8 @@ four-ledger accounting, governance extension
 
 **表 S6　官方山坡地劃定範圍與高程帶分佈交叉檢核表**
 
+*Table S6. Cross-tabulation of the officially designated slope-land extent by elevation band.*
+
 | 高程帶 | 網格數 | 該帶中被劃為山坡地之比例 | 占全部山坡地之比例 |
 |---|---:|---:|---:|
 | 都市平地 0–20 m | 20,510 | **1.4 %** | 2.0 % |
@@ -368,6 +390,8 @@ four-ledger accounting, governance extension
 
 
 **表 S7　供需赤字網格（低供給·高需求）之主要土地使用分區組成表**
+
+*Table S7. Land-use zoning composition of the supply–demand deficit cells (low supply · high demand).*
 
 | 使用分區 | 網格數 | 平均 SAI | 平均樹冠 (m) | 平均人口密度 | 赤字格數 | 占該分區 | 占全部赤字格 |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -400,6 +424,8 @@ four-ledger accounting, governance extension
 
 
 **表 S8　既有年 NPP 通量產品逐年品質與零值比例稽核表**
+
+*Table S8. Annual quality and zero-value audit of the existing annual NPP product.*
 
 | 年度 | 感測器 | 零值比例 | 正值格平均 NPP | 可用 |
 |---:|---|---:|---:|:--:|
@@ -436,6 +462,8 @@ four-ledger accounting, governance extension
 
 **表 S9　行道樹樹種組成與胸徑結構之高程帶分解表**
 
+*Table S9. Species composition and trunk-diameter structure of street trees by elevation band.*
+
 | 高程帶 | 棵數 | 樹種數 | 主要樹種（前 8 種占比 %） | 胸徑中位數 (cm) | IQR (cm) |
 |---|---:|---:|---|---:|---|
 | 都市平地 0–20 m | 87,647 | **275** | 榕樹 12／茄苳 11／樟樹 10／楓香 8／臺灣欒樹 7／黑板樹 8／白千層 7 | 24.0 | 12.3–35.3 |
@@ -450,6 +478,8 @@ four-ledger accounting, governance extension
 
 
 **表 S10　臺北市 12 行政區樹冠結構重算與覆蓋率對照表**
+
+*Table S10. Recomputed canopy structure and canopy cover of the 12 Taipei districts.*
 
 | 行政區 | 有效面積 (ha) | 樹冠面積 (ha) | 覆蓋率 | 樹冠高 mean (m) | median (m) | P90 (m) | ΣH (m·ha) |
 |---|---:|---:|---:|---:|---:|---:|---:|

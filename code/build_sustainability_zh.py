@@ -22,12 +22,13 @@ Mapping
 """
 import re
 import shutil
+import zipfile
 import sys
 import tempfile
 from pathlib import Path
 
 from docx import Document
-from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_TAB_ALIGNMENT
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 from docx.table import Table
@@ -70,7 +71,7 @@ AFFILIATIONS = [
 EA_FONT = 'PMingLiU'
 LATIN_FONT = 'Palatino Linotype'
 
-T_CAPTION = re.compile(r'^\**表\s')
+T_CAPTION = re.compile(r'^(\**表\s|\*?Table\s)')
 F_CAPTION = re.compile(
     r'^(\**圖\s*[A-Z0-9]+(?:-\d+)?\u3000'          # 圖 5-1　標題
     r'|\**附錄圖\s*[A-Z0-9]+-\d+\u3000'            # 附錄圖 A-1　標題（映射前）
@@ -130,6 +131,28 @@ TABLE_MAP = [
     ('表 4.8', 'Table 13'), ('表 5.1', 'Table 14'), ('表 5.2', 'Table 15'), ('表 5.3', 'Table 16'),
     ('表 5.4', 'Table 17'), ('表 5.5', 'Table 18'), ('表 5.6', 'Table 19'), ('表 5.7', 'Table 20'),
     ('表 5.8', 'Table 21'), ('表 5.9', 'Table 22'),
+    ('Table 1.1', 'Table 1'),
+    ('Table 1.2', 'Table 2'),
+    ('Table 3.1', 'Table 3'),
+    ('Table 3.2', 'Table 4'),
+    ('Table 3.3', 'Table 5'),
+    ('Table 4.1', 'Table 6'),
+    ('Table 4.2', 'Table 7'),
+    ('Table 4.3', 'Table 8'),
+    ('Table 4.4', 'Table 9'),
+    ('Table 4.5', 'Table 10'),
+    ('Table 4.6', 'Table 11'),
+    ('Table 4.7', 'Table 12'),
+    ('Table 4.8', 'Table 13'),
+    ('Table 5.1', 'Table 14'),
+    ('Table 5.2', 'Table 15'),
+    ('Table 5.3', 'Table 16'),
+    ('Table 5.4', 'Table 17'),
+    ('Table 5.5', 'Table 18'),
+    ('Table 5.6', 'Table 19'),
+    ('Table 5.7', 'Table 20'),
+    ('Table 5.8', 'Table 21'),
+    ('Table 5.9', 'Table 22'),
 ]
 BACK_MATTER = [
     ('Author Contributions: Conceptualization, methodology, formal analysis, data curation, '
@@ -138,7 +161,8 @@ BACK_MATTER = [
     ('Funding: This research received no external funding.'),
     ('Data Availability Statement: All datasets used in this study are publicly available; the '
      'sources and processing rules are listed in Table S1 and Table S2. Derived spatial layers '
-     'and analysis scripts are archived at Zenodo: https://doi.org/10.5281/zenodo.22865864 '
+     'and analysis scripts are published and publicly accessible at Zenodo: '
+     'https://doi.org/10.5281/zenodo.22865864 '
      '(version v1.0.0; concept DOI 10.5281/zenodo.22865863; MIT licence for code, CC BY 4.0 for '
      'derived results).'),
     ('Acknowledgments: The author(s) thank the Taipei City Government (Parks and Street Lights '
@@ -148,7 +172,24 @@ BACK_MATTER = [
 ]
 REF_SUBHEADS = ('學術文獻', '制度與政策文件', '法規與政策文件', '資料來源')
 
+# --- display equations (numbered) ------------------------------------------
+EQ_STARTS = ('AGB = 0.0673', 'SAI = 100 ×', 'M = z(人口)')
+
 CURRENT_MODE = 'full'
+
+
+def strip_auto_numbering(docx_path):
+    """Delete list numbering inherited from the template styles (we number items manually)."""
+    tmp = docx_path.with_name(docx_path.stem + '.tmp.docx')
+    with zipfile.ZipFile(docx_path) as zin, \
+            zipfile.ZipFile(tmp, 'w', zipfile.ZIP_DEFLATED) as zout:
+        for item in zin.infolist():
+            data = zin.read(item.filename)
+            if item.filename == 'word/styles.xml':
+                data = re.sub(r'<w:numPr>.*?</w:numPr>', '',
+                              data.decode('utf-8'), flags=re.S).encode('utf-8')
+            zout.writestr(item, data)
+    shutil.move(str(tmp), str(docx_path))
 
 
 def map_refs(text, mode=None):
@@ -241,7 +282,7 @@ def build(mode='full', outdir=None):
 
     tmp_dir = Path(tempfile.mkdtemp(prefix='mdpizh_'))
     state = {'zone': 'front', 'skip_toc': False, 'chapter': 0, 'captioned': False,
-             'appendix_started': False, 'ref_no': 0}
+             'appendix_started': False, 'ref_no': 0, 'eq_no': 0}
     n_tbl = n_img = n_cap = 0
 
     children = list(src.element.body.iterchildren())
@@ -370,6 +411,16 @@ def build(mode='full', outdir=None):
             add_para(doc, '[{}] {}'.format(state['ref_no'], body), 'MDPI_8.1_references', mode=mode)
             continue
 
+        # --- 顯示式（編號公式）---
+        if text.strip().lstrip('`*').startswith(EQ_STARTS):
+            state['eq_no'] += 1
+            p = doc.add_paragraph(style='MDPI_3.1_text')
+            ts = p.paragraph_format.tab_stops
+            ts.add_tab_stop(Cm(8.8), WD_TAB_ALIGNMENT.CENTER)
+            ts.add_tab_stop(Cm(17.6), WD_TAB_ALIGNMENT.RIGHT)
+            p.add_run('\t' + text.strip('`*') + '\t({})'.format(state['eq_no']))
+            continue
+
         # --- 表標題 / 圖說 ---
         if T_CAPTION.match(text):
             add_para(doc, text, 'MDPI_4.1_table_caption', mode=mode)
@@ -394,7 +445,13 @@ def build(mode='full', outdir=None):
     if OUTDIR:
         OUTDIR.mkdir(parents=True, exist_ok=True)
         target = OUTDIR / target.name
-    doc.save(str(target))
+    try:
+        doc.save(str(target))
+        strip_auto_numbering(target)
+    except PermissionError:
+        print('SKIPPED {} (file is open in Word - close it and re-run)'.format(target.name))
+        shutil.rmtree(tmp_dir, ignore_errors=True)
+        return 1
     shutil.rmtree(tmp_dir, ignore_errors=True)
     print('wrote {} ({:,} bytes)  tables={} figures={} captions={}'.format(
         target.name, target.stat().st_size, n_tbl, n_img, n_cap))

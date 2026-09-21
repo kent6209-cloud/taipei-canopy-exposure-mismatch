@@ -53,7 +53,11 @@ def main():
     mapping = {old: i + 1 for i, old in enumerate(order)}
     print('first-appearance order (old):', order)
     print('mapping old -> new:', {k: mapping[k] for k in sorted(mapping)})
-    unmapped = sorted(set(range(1, 28)) - set(mapping))
+    block_refs = BT.read_text(encoding='utf-8')
+    block_refs = block_refs[block_refs.index('    refs = """## 參考文獻'):
+                          block_refs.index('## 附錄')]
+    items_all = re.findall(r'^(\d+)\.\s', block_refs, flags=re.M)
+    unmapped = sorted(set(int(i) for i in items_all) - set(mapping))
     print('never cited:', unmapped)
     if dry:
         return 0
@@ -90,7 +94,7 @@ def main():
     head, tail = t[:a], t[b:]
     block = t[a:b]
     items = re.findall(r'^\d+\.\s.*$', block, flags=re.M)
-    assert len(items) == 27, 'expected 27 references, found {}'.format(len(items))
+    assert len(items) >= 27, 'expected >=27 references, found {}'.format(len(items))
     bodies = [re.sub(r'^\d+\.\s*', '', s) for s in items]
     new_items = []
     for old, new in sorted(mapping.items(), key=lambda kv: kv[1]):

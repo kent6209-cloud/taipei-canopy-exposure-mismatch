@@ -11,9 +11,10 @@ import re
 from docx import Document
 
 NEW = pathlib.Path(r'E:\GeoAI\20260909_taiwan_chmv2\Paper\new')
-FILES = ['論文_全文_v16_Sustainability中文版.docx',
-         '論文_全文_v16_Sustainability中文版_主文.docx',
-         '論文_全文_v16_Sustainability中文版_附錄（補充材料）.docx']
+SUFFIX = 'v17' if '--v16' not in __import__('sys').argv else 'v16'
+FILES = ['論文_全文_{}_Sustainability中文版.docx'.format(SUFFIX),
+         '論文_全文_{}_Sustainability中文版_主文.docx'.format(SUFFIX),
+         '論文_全文_{}_Sustainability中文版_附錄（補充材料）.docx'.format(SUFFIX)]
 
 FIG = re.compile(r'(?<![A-Za-z0-9])Figure\s+(S?)(\d+)')
 TAB = re.compile(r'(?<![A-Za-z0-9])Table\s+(S?)(\d+)')
