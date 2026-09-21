@@ -30,4 +30,4 @@ authors:
 # identifiers:
 #   - type: doi
 #     value: 10.5281/zenodo.XXXXXXX
-# repository-code: "https://github.com/<user>/<repo>"
+repository-code: "https://github.com/kent6209-cloud/taipei-canopy-exposure-mismatch"

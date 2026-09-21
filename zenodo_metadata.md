@@ -2,22 +2,22 @@
 
 ## 上架流程（取得 DOI 的標準路徑）
 
-1. **建立 GitHub repo**（本專案 `E:\GeoAI` 尚無 commit／remote，需先在 `20260909_taiwan_chmv2\` 內建 repo 或直接上傳 `deposit_zenodo/`）：
+1. **建立 GitHub repo** —— ✅ 已完成（`deposit_zenodo\` 即 repo 根目錄，branch `main`，初始 commit `8295438`，126 檔／12.9 MB）
+   - remote：`https://github.com/kent6209-cloud/taipei-canopy-exposure-mismatch.git`（已 push `main` 與 annotated tag `v1.0.0`）
    ```powershell
-   cd E:\GeoAI\20260909_taiwan_chmv2
-   git init
-   git add deposit_zenodo
-   git commit -m "feat(deposit): analysis code and results for the Taipei canopy-exposure mismatch study"
-   git branch -M main
-   git remote add origin https://github.com/<user>/<repo>.git
-   git push -u origin main
+   cd E:\GeoAI\20260909_taiwan_chmv2\deposit_zenodo
+   git remote -v            # 已設定 origin
+   git push                 # 後續更新直接 push
    ```
-   > 建議把 `deposit_zenodo/` 內容放在 repo 根目錄（即 `code/`、`results/`、`README.md`、`LICENSE`、`CITATION.cff`）。
-   > `.gitignore` 至少排除：`Paper/`（含 Word 檔）、`county/`、`townships/`、`tiles/`、`data_civil/*.ods`、`*.zip`（原始資料與大檔）。
+   > repo 根目錄已含 `code/`、`results/`、`README.md`、`LICENSE`、`CITATION.cff`、`.gitignore`、`.gitattributes`。
+   > `.gitignore` 已排除原始資料與大檔（`county/`、`townships/`、`tiles/`、`*.tif`、`*.gpkg`、`*.shp`、`data_civil/*.ods`、`*.zip`、`Paper/`）。
 
-2. **連結 Zenodo**：登入 <https://zenodo.org> → Settings → GitHub → 勾選該 repo（授權一次即可）。
+2. **連結 Zenodo**：登入 <https://zenodo.org> → Settings → GitHub → 勾選 `taipei-canopy-exposure-mismatch`（授權一次即可）。
 
-3. **發布 Release**：在 GitHub 建 `v1.0.0` Release（Zenodo 會自動封存並**產生 DOI**）。
+3. **發布 Release**（Zenodo 只在建立 Release 時封存並產生 DOI；單純 push tag 不會）：
+   - 開 <https://github.com/kent6209-cloud/taipei-canopy-exposure-mismatch/releases/new?tag=v1.0.0>
+   - Title：`v1.0.0 — analysis code and results (paper v16 submission)`
+   - 貼上下方「Description」段落 → **Publish release**
 
 4. **回填 DOI**：Zenodo 會給兩種 DOI
    - **Version DOI**（例：`10.5281/zenodo.1234567`）→ 用於本論文引用
