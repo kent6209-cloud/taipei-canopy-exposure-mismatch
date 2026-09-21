@@ -178,6 +178,7 @@ spatial governance
 
 ### 附錄 B　可重現程式與執行稽核（Reproducible Code Base）
 
+本附錄列出全部分析程式、輸出檔與功能用途（見表 S2）；程式與衍生結果已典藏於 Zenodo（見「Data Availability Statement」）。
 
 **表 S2　可重現程式碼清單、輸出檔與功能用途彙整表**
 
@@ -239,29 +240,29 @@ spatial governance
 
 ### 附錄 F　圖版索引（實證 vs 概念／模型標註）
 
-> 圖版已置於各章對應段落並附中英圖說（圖 2-1 於 §2.6、圖 3-1 於 §3.2、圖 4-1 於 §4.1、圖 4-2 於 §4.2、圖 4-3 於 §4.6、圖 5-1 於 §5.1、圖 5-2 於 §5.2、圖 5-3 於 §5.3、圖 5-4 於 §5.5、圖 5-5 於 §5.6）。下表同時對應國際投稿版之連續圖號（Figure 1–9；圖 5-5 為穩健性檢核，投稿版列為 Supplementary）。
+> 圖版已置於各章對應段落並附中英圖說（圖 2-1 於 §2.6、圖 3-1 於 §3.2、圖 4-1 於 §4.1、圖 4-2 於 §4.2、圖 4-3 於 §4.6、圖 5-1 於 §5.1、圖 5-2 於 §5.2、圖 5-3 於 §5.3、圖 5-4 於 §5.5、圖 5-5 於 §5.6）。下表（表 S3）同時列出各圖版於投稿版之編號：主文為 Figure 1–10（連續），補充材料為 Figure S1–S6（連續），並對應補充材料區段 S5、S7–S11。
 
 
 **表 S3　論文圖版索引、類型與中英文圖說對照表**
 
-| 中文圖號 | 位置 | 投稿版 | 類型 | 英文圖說（投稿版） |
-|---|---|---|---|---|
-| 圖 2-1 | §2.6 | Figure 9 | 政策文本描述 | Trend of green-governance keywords in the Taipei Voluntary Local Reviews (2019–2025). |
-| 圖 3-1 | §3.2 | Figure 8 | 理論模型（非流程圖） | The Near-Mountain Green-Carbon Interface (NMGCI) analytical framework. |
-| 圖 4-1 | §4.1 | Figure 1 | 概念（實線＝已實證） | Research design and RQ–WP argumentation structure. |
-| 圖 4-2 | §4.2 | Figure 2 | 實證底圖 | Study area, near-mountain–urban interface and elevation zoning in Taipei City. |
-| 圖 4-3 | §4.6 | Figure 7 | 模型 what-if（非成效） | What-if simulation of equal canopy-increment capital allocation under three spatial rules. |
-| 圖 5-1 | §5.1 | Figure 3 | 實證 | Supply-side spatial structure: elevation-band shares, ΣH and SAI. |
-| 圖 5-2 | §5.2 | Figure 4 | 實證 | Mean SAI and canopy structure (ΣH) across population-density deciles (n = 23,342). |
-| 圖 5-3 | §5.3 | Figure 5 | 實證 | Spatial mismatch deficit and LISA clusters. |
-| 圖 5-4 | §5.5 | Figure 6 | 實證（專案層描述） | Open Green cases overlaid on the SAI supply–demand quadrants. |
-| 圖 5-5 | §5.6 | Supplementary S1 | 穩健性檢核 | Robustness of the demand-side weighting: WorldPop density versus official village population (n = 456 villages). |
-| 附錄圖 A-1 | 附錄 E | Supplementary S2 | 驗證 | CHMv2 canopy height validated against the Taipei street-tree census (per-tree pairing, n = 92,625). |
-| 附錄圖 A-2 | 附錄 G | Supplementary S3 | 外部效度 | Vegetation-detection share of all 368 Taiwanese townships, with the 12 Taipei districts highlighted. |
-| 附錄圖 A-3 | 附錄 H | Supplementary S4 | 制度／土地 | Official slope-land share by elevation band, and land-use zoning composition of the supply–demand deficit cells. |
-| 附錄圖 A-4 | 附錄 I | Supplementary S5 | 資料品質 | Usability audit of the annual NPP product (zero-inflation and sensor-era discontinuity). |
-| 附錄圖 A-5 | 附錄 J | Supplementary S6 | 結構分解 | Street-tree species and DBH by elevation band, and district-level canopy cover recomputed from CHMv2. |
-| 附錄圖 A-6 | 附錄 G-2 | Supplementary S7 | 外部效度 | Vegetation-detection share of the 22 counties/cities, with a township-vs-county consistency check. |
+| 圖號 | 位置 | 類型 | 英文圖說（投稿版） |
+|---|---|---|---|
+| 圖 2-1 | §2.6 | 政策文本描述 | Trend of green-governance keywords in the Taipei Voluntary Local Reviews (2019–2025). |
+| 圖 3-1 | §3.2 | 理論模型（非流程圖） | The Near-Mountain Green-Carbon Interface (NMGCI) analytical framework. |
+| 圖 4-1 | §4.1 | 概念（實線＝已實證） | Research design and RQ–WP argumentation structure. |
+| 圖 4-2 | §4.2 | 實證底圖 | Study area, near-mountain–urban interface and elevation zoning in Taipei City. |
+| 圖 4-3 | §4.6 | 模型 what-if（非成效） | What-if simulation of equal canopy-increment capital allocation under three spatial rules. |
+| 圖 5-1 | §5.1 | 實證 | Supply-side spatial structure: elevation-band shares, ΣH and SAI. |
+| 圖 5-2 | §5.2 | 實證 | Mean SAI and canopy structure (ΣH) across population-density deciles (n = 23,342). |
+| 圖 5-3 | §5.3 | 實證 | Spatial mismatch deficit and LISA clusters. |
+| 圖 5-4 | §5.5 | 實證（專案層描述） | Open Green cases overlaid on the SAI supply–demand quadrants. |
+| 圖 5-5 | §5.6 | 穩健性檢核 | Robustness of the demand-side weighting: WorldPop density versus official village population (n = 456 villages). |
+| 附錄圖 A-1 | 附錄 E（Supplementary S5） | 驗證 | CHMv2 canopy height validated against the Taipei street-tree census (per-tree pairing, n = 92,625). |
+| 附錄圖 A-2 | 附錄 G（Supplementary S7） | 外部效度 | Vegetation-detection share of all 368 Taiwanese townships, with the 12 Taipei districts highlighted. |
+| 附錄圖 A-6 | 附錄 G-2（Supplementary S8） | 外部效度 | Vegetation-detection share of the 22 counties/cities, with a township-vs-county consistency check. |
+| 附錄圖 A-3 | 附錄 H（Supplementary S9） | 制度／土地 | Official slope-land share by elevation band, and land-use zoning composition of the supply–demand deficit cells. |
+| 附錄圖 A-4 | 附錄 I（Supplementary S10） | 資料品質 | Usability audit of the annual NPP product (zero-inflation and sensor-era discontinuity). |
+| 附錄圖 A-5 | 附錄 J（Supplementary S11） | 結構分解 | Street-tree species and DBH by elevation band, and district-level canopy cover recomputed from CHMv2. |
 
 ### 附錄 G　全臺鄉鎮市區樹冠結構對照（外部效度檢核）
 
@@ -269,7 +270,7 @@ spatial governance
 
 **全臺分布（n = 368）**：植被偵測比例最低 1.8 %、P25 12.1 %、**中位數 34.3 %**、P75 68.1 %、最高 97.2 %（平均 40.1 %）；樹冠像元平均高度之中位數 6.70 m。
 
-**臺北市 12 區之位置**：
+**臺北市 12 區之位置**（見表 S4）：
 
 
 **表 S4　臺北市 12 行政區樹冠結構與全臺 368 鄉鎮市區排名對照表**
@@ -305,7 +306,7 @@ spatial governance
 
 ### 附錄 G-2　縣市層對照與交叉檢核
 
-以 `county/<縣市>.tif`（22 檔）依縣市界（`COUNTY_MOI_1090820`）計算同一指標，並與鄉鎮層加總互驗。
+以 `county/<縣市>.tif`（22 檔）依縣市界（`COUNTY_MOI_1090820`）計算同一指標，並與鄉鎮層加總互驗（見表 S5）。
 
 
 **表 S5　全臺 22 縣市樹冠結構鄉鎮加總與縣市直算交叉檢核表**
@@ -337,7 +338,7 @@ spatial governance
 
 **交叉檢核**：22 個縣市之「鄉鎮層加總」與「縣市直算（10 m・NearestNeighbour）」於植被偵測比例之平均絕對差 **0.05 pp**、最大差 **0.53 pp**（連江縣；面積小、島嶼邊界效應）。臺北市為 51.26 %／51.27 %（差 −0.01 pp）。此一致性支持附錄 G 以鄉鎮層呈現之結果。
 
-**觀察**：臺北市 51.3 % 於六都中排名第 4（低於新北 77.8 %、高雄 63.5 %、臺中 56.5 %；高於桃園 46.0 %、臺南 37.1 %），於全臺 22 縣市中排名第 13。**縣市層看不出其特殊性**——這正是重要之處：臺北市的「近山—都市」張力**不在縣市平均值**，而在**市內**（12 區由 10.0 % 至 64.1 %，見附錄 J(2)）；以縣市或行政區為單元均無法呈現介面落差。
+**觀察**：臺北市 51.3 % 於六都中排名第 4（低於新北 77.8 %、高雄 63.5 %、臺中 56.5 %；高於桃園 46.0 %、臺南 37.1 %），於全臺 22 縣市中排名第 13。**縣市層看不出其特殊性**——這正是重要之處：臺北市的「近山—都市」張力**不在縣市平均值**，而在**市內**（12 區由 10.0 % 至 64.1 %，見附錄 J(2)）；以縣市或行政區為單元均無法呈現介面落差（縣市層空間分布見附錄圖 A-6）。
 
 ![](figures/figA6_tw_counties.png)
 
@@ -349,7 +350,7 @@ spatial governance
 
 **（1）官方山坡地 × 高程帶（近山界定之外部檢核）**
 
-方法：將內政部《山坡地範圍》（115.05.12 版，原始 EPSG:3824）投影並點陣化至與主分析相同之 100 m 網格，再與 5 m DEM 之平均高程交叉列表。向量面積 14,914 ha，網格計數 14,917 格（≈14,917 ha），一致性良好。
+方法：將內政部《山坡地範圍》（115.05.12 版，原始 EPSG:3824）投影並點陣化至與主分析相同之 100 m 網格，再與 5 m DEM 之平均高程交叉列表。向量面積 14,914 ha，網格計數 14,917 格（≈14,917 ha），一致性良好（見表 S6）。
 
 
 **表 S6　官方山坡地劃定範圍與高程帶分佈交叉檢核表**
@@ -367,7 +368,7 @@ spatial governance
 
 **（2）使用分區 × 供需象限（制度性錯位）**
 
-方法：將臺北市《主要計畫圖》（115.04.09 版）使用分區點陣化至同一 100 m 網格，對照 §5.4 之四象限（供給＝樹冠 ≤ 平均；需求＝人口 > 平均）。全市 27,652 有效格中 7,911 格為赤字格（與表 5.5 一致）。
+方法：將臺北市《主要計畫圖》（115.04.09 版）使用分區點陣化至同一 100 m 網格，對照 §5.4 之四象限（供給＝樹冠 ≤ 平均；需求＝人口 > 平均）。全市 27,652 有效格中 7,911 格為赤字格（與表 5.5 一致）；各分區之赤字組成見表 S7。
 
 
 **表 S7　供需赤字網格（低供給·高需求）之主要土地使用分區組成表**
@@ -399,7 +400,7 @@ spatial governance
 
 **目的與來源**：評估既有「年 NPP」產品（CASA × 調和 NDVI，100 m、EPSG:3826，與主網格相同；來源專案 `E:\SCI\20260704`）是否足以支持時序／空間通量分析。另檢核 MODIS 降尺度產品（`modis_npp_YYYY_100m.tif`）。
 
-**逐年品質**（`wp3b_carbon_flux.csv` 為完整表；下表列關鍵年度）：
+**逐年品質**（`wp3b_carbon_flux.csv` 為完整表；表 S8 列關鍵年度）：
 
 
 **表 S8　既有年 NPP 通量產品逐年品質與零值比例稽核表**
@@ -434,7 +435,7 @@ spatial governance
 
 ### 附錄 J　行道樹結構分解與區級樹冠結構
 
-**（1）行道樹樹種與胸徑之高程帶分解**（`wp1b_tree_structure.py`；92,626 棵，284 種）
+**（1）行道樹樹種與胸徑之高程帶分解**（`wp1b_tree_structure.py`；92,626 棵，284 種；見表 S9）
 
 
 **表 S9　行道樹樹種組成與胸徑結構之高程帶分解表**
@@ -449,7 +450,7 @@ spatial governance
 
 兩項結構訊息：**(i) 樹種多樣性隨高程急遽收斂**（275 → 11 種），平地帶承載全市綠意的**物種多樣性核心**；**(ii) 山區僅存的少數行道樹為大型個體**（胸徑中位數 53 cm、約平地之 2.2 倍），且集中為榕樹與楓香兩種。此解釋了第五、六章之關鍵對比：**平地以「數量多、樹種雜、個體小」的行道樹承擔日常綠意；山區則以少數大樹與連片森林貢獻 ΣH 結構**——兩者不可用同一指標衡量，亦支持 §6.2「量體 ≠ 暴露」之論證。
 
-**（2）區級樹冠結構**（本專案 CHMv2 管線重算：10 m・NearestNeighbour・DEM∩CHM 有效域）
+**（2）區級樹冠結構**（本專案 CHMv2 管線重算：10 m・NearestNeighbour・DEM∩CHM 有效域；見表 S10）
 
 
 **表 S10　臺北市 12 行政區樹冠結構重算與覆蓋率對照表**
@@ -470,7 +471,7 @@ spatial governance
 | 松山區 | 865.3 | 86.7 | 10.0 % | 5.85 | 5 | 11 | 508 |
 | **合計** | **26,935.1** | **13,808.2** | **51.3 %** | — | — | — | **127,812** |
 
-12 區之樹冠面積 13,808.2 ha 與 ΣH 127,812 m·ha，分別與表 5.1 之 13,805.4 ha／127,779.3 m·ha 差異 **+0.02 %／+0.03 %**；區級覆蓋率亦與附錄 G（原生解析度）一致（松山 10.0 % vs 10.1 %；士林 64.1 % vs 64.0 %），顯示各管線之可重現性。區級排序同時呼應圖 5-4 之案例分布與附錄 H 之使用分區結構。
+12 區之樹冠面積 13,808.2 ha 與 ΣH 127,812 m·ha，分別與表 5.1 之 13,805.4 ha／127,779.3 m·ha 差異 **+0.02 %／+0.03 %**；區級覆蓋率亦與附錄 G（原生解析度）一致（松山 10.0 % vs 10.1 %；士林 64.1 % vs 64.0 %），顯示各管線之可重現性。區級排序同時呼應圖 5-4 之案例分布與附錄 H 之使用分區結構（圖版見附錄圖 A-5）。
 
 ![](figures/figA5_tree_structure.png)
 
